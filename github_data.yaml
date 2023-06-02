@@ -1,0 +1,32 @@
+- name: tedana
+  id: MDEwOlJlcG9zaXRvcnkxMTA4NDU4NTU=
+  url: https://github.com/ME-ICA/tedana
+  stargazers: 140
+  description: TE-dependent analysis of multi-echo fMRI
+- name: aroma
+  id: MDEwOlJlcG9zaXRvcnkzMTE3MDc4NzQ=
+  url: https://github.com/ME-ICA/aroma
+  stargazers: 7
+  description: ICA-AROMA, as a Python package. A work in progress.
+- name: mapca
+  id: MDEwOlJlcG9zaXRvcnkzMjI2ODYzNjU=
+  url: https://github.com/ME-ICA/mapca
+  stargazers: 5
+  description: A Python implementation of the moving average principal components
+    analysis methods from GIFT
+- name: rica
+  id: MDEwOlJlcG9zaXRvcnkzOTExNTU4NjI=
+  url: https://github.com/ME-ICA/rica
+  stargazers: 5
+  description: Rica (Reports for ICA) provides an app to visualize ICA components
+    and perform manual classification in an interactive way
+- name: pySPFM
+  id: R_kgDOHVoxZw
+  url: https://github.com/eurunuela/pySPFM
+  stargazers: 1
+  description: Python version of 3dPFM and 3dMEPFM
+- name: pyproximal
+  id: MDEwOlJlcG9zaXRvcnkzMjczNzUzNTI=
+  url: https://github.com/PyLops/pyproximal
+  stargazers: 32
+  description: "PyProximal \u2013 Proximal Operators and Algorithms in Python"

@@ -1,0 +1,30 @@
+```{=html}
+<div class="card-container">
+  <a href="http://github.com/aadimator" target="_blank">
+    <div class="card">
+      <div class="header">
+        <h5>Featured projects</h5>
+        <div>
+          <i class="bi bi-github"></i>
+        </div>
+      </div>
+      <% for (const item of items) { %>
+      <div class="item">
+        <a href="<%= item.url %>" target="_blank" class="inlink">
+          <div>
+            <div class="item-info">
+              <p><%= item.name %></p>
+              <p><%= item.description %></p>
+            </div>
+            <div class="item-icon">
+              <p><%= item.stargazers %></p>
+              <i class="bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <% } %>
+    </div>
+  </a>
+</div>
+```

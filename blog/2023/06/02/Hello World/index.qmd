@@ -1,0 +1,19 @@
+---
+title: "How to make fancy road trip maps with R and OpenStreetMap"
+date: 2023-06-01
+description: "Use R to get geocoded location and routing data from OpenStreetMap and explore our family's impending 5,000 mile road trip around the USA"
+categories:
+  - r
+  - tidyverse
+  - ggplot
+  - gis
+  - maps
+format:
+  html:
+    reference-location: margin
+    code-fold: show
+---
+
+## Hello World!
+
+It's good to be back.

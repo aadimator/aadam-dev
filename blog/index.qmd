@@ -1,0 +1,23 @@
+---
+pagetitle: "Blog"
+title-block-banner: false
+author: ""
+description-meta: "Aadam's blog"
+listing:
+  - id: posts_2023
+    contents: "2023/**/index.qmd"
+    sort: "date desc"
+    template: ../ejs/blog/listing.ejs
+    categories: true
+page-layout: full
+toc-title: Year
+toc-location: right
+date-format: "MMMM D, YYYY"
+code-tools: false
+comments: false
+---
+
+## 2023
+
+:::{#posts_2023}
+:::

@@ -1,0 +1,77 @@
+project:
+  type: website
+
+  preview: 
+      port: 5555
+      browser: true
+      watch-inputs: true
+      navigate: true
+
+# Metadata
+pagetitle: "{{< meta title >}} | Aadam"
+description-meta: "Aadam is a Ph.D. candidate at IUPUI, researching in the field of spatial transcriptomics."
+author-meta: "Aadam"
+
+freeze: true
+
+# bibliography: files/bib/references.bib
+# csl: files/bib/chicago-author-date.csl
+
+website:
+  title: "Aadam"
+  description: "{{< meta description-meta >}}"
+  favicon: "/images/logo.png"
+  site-url: "https://aadam.dev/"
+  repo-url: "https://github.com/aadimator/aadam_dev"
+  repo-actions: issue
+  image: /images/logo.png
+
+  google-analytics: 
+    tracking-id: "UA-527449-5"
+    anonymize-ip: true
+
+  twitter-card: 
+    image: "/files/profiles/twitter-card-large.png"
+    description: "{{< meta description-meta >}}"
+    card-style: summary_large_image
+    creator: "@aadimator"
+    site: "@aadimator"
+
+  open-graph: 
+    image: "/files/profiles/twitter-card-large.png"
+    description: "{{< meta description-meta >}}"
+    locale: en_US
+  
+  navbar:
+    title: "Aadam"
+    right:
+      - text: Blog
+        href: blog/index.qmd
+      - text: About
+        href: https://localhost:5555
+      - text: Posts
+        href: https://localhost:5555
+
+  # reader-mode: true
+
+format:
+  html:
+    theme: [litera, assets/css/theme.scss]
+    css: assets/css/styles.css
+    highlight-style: 
+      light: assets/styles/highlight-light.theme
+      dark: assets/styles/highlight-dark.theme
+    smooth-scroll: true
+    link-external-newwindow: true
+    toc: false
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    code-block-border-left: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+
+
+

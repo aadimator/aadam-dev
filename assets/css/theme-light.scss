@@ -1,0 +1,62 @@
+@import "theme.scss";
+
+/*-- scss:defaults --*/
+
+// warmer grays (hue 240)
+$white: #fff !default;
+$gray-100: #f8f8fa !default;
+$gray-200: #e9e9ef !default;
+$gray-300: #dcdce6 !default;
+$gray-400: #ceceda !default;
+$gray-500: #adadbd !default;
+$gray-600: #868696 !default;
+$gray-700: #494957 !default;
+$gray-800: #343440 !default;
+$gray-900: #212129 !default;
+$black: #000 !default;
+
+//  my colors (comment out above)
+$pink: #d4006a;
+$blue: #006ad4;
+$green: #00d46a;
+$cyan: #00d4d4;
+$red: #d40000;
+$indigo: #0000d4;
+$purple: #6a00d4;
+$orange: #d46a00;
+$yellow: #d4d400;
+$darker-green: #008542;
+
+$primary: $pink !default;
+$secondary: $gray-500 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $orange !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+
+$second-color: $purple;
+$third-color: $blue;
+
+// colour tweaks to theme
+$body-bg: $light;
+$body-color: $dark;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$code-bg: $light;
+$code-color: $second-color;
+$card-bg: $gray-300;
+$card-border-color: $gray-300;
+
+/*-- scss:rules --*/
+
+// light vs dark modes
+.light-mode {
+  display: block;
+}
+.dark-mode {
+  display: none;
+}
+
+
