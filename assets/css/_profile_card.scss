@@ -1,0 +1,95 @@
+@use 'theme_variables' as *;
+
+.profile-card {
+    display: block;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    align-items: center;
+    width: 100%;
+    border-radius: 1.25rem;
+    background-color: $card-bg;
+  
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04))
+      drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    height: fit-content;
+  
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+  
+      .img-container {
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        flex-direction: row;
+        justify-content: center;
+      }
+  
+      .bio-container {
+        display: flex;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        flex-direction: column;
+        margin: auto;
+  
+        .greeting {
+          padding-top: 1rem;
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+          font-weight: 700;
+          letter-spacing: -0.05em;
+          line-height: 1.25;
+          white-space: nowrap;
+        }
+  
+        .tagline {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          font-size: 1.25rem;
+          line-height: 1.75rem;
+        }
+  
+        .mission {
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+
+@media (min-width: 640px) {
+    .profile-card {
+      .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        .img-container {
+          align-items: center;
+        }
+        .bio-container {
+          .greeting {
+            font-size: 3rem;
+            line-height: 1;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    .profile-card {
+      .grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+  
+        .bio-container {
+          grid-column: span 2 / span 2;
+  
+          .greeting {
+            font-size: 3.75rem;
+            line-height: 1;
+          }
+        }
+      }
+    }
+  }

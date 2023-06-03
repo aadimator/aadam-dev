@@ -1,0 +1,64 @@
+@use "theme_variables" as *;
+
+.card {
+  display: block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: $card-bg;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.item-header {
+  color: $primary;
+  font-size: 1.5rem;
+
+  h5 {
+    font-size: $font-size-base * 1.5;
+  }
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.item-link {
+  color: $title-color;
+  text-decoration: none;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+.star-count {
+  line-height: 1.25;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+}
+
+.item-info {
+  p {
+    margin: 0;
+  }
+}
+.item-description {
+  color: rgba(228, 228, 231, 1);
+  line-height: 1.25;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.star {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+.item {
+  margin-bottom: 0.75rem;
+}

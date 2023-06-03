@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+// fonts
+// $font-family-sans-serif: "Roboto Condensed", sans-serif !default;
+// $font-family-monospace: monospace;
+
+// Fonts
+
+$font-size-base: 1rem;
+
+$font-family-sans-serif: "Libre Franklin" !default;
+
+$headings-font-family: "Jost" !default;
+$headings-font-weight: 600 !default;
+
+$navbar-font-family: "Jost" !default;
+$toc-font-family: "Jost" !default;
+$footer-font-family: "Jost" !default;
+
+// warmer grays (hue 240)
+$white:    #fff !default;
+$gray-100: #F8F8FA !default;
+$gray-200: #E9E9EF !default;
+$gray-300: #DCDCE6 !default;
+$gray-400: #CECEDA !default;
+$gray-500: #ADADBD !default;
+$gray-600: #868696 !default;
+$gray-700: #494957 !default;
+$gray-800: #343440 !default;
+$gray-900: #212129 !default;
+$black:    #000 !default;
+
+// $primary: #a594fd !default;
+$primary: #d38d25;
+$body-bg: $gray-800; // #050505; //$dark;
+$body-color: #f1f1ef;
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$card-bg: $gray-900;
+$title-color: #f1f1ef;
+
+/*-- scss:rules --*/
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap";
+
+@if $web-font-path {
+  @import url($web-font-path);
+}

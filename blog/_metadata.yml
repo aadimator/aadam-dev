@@ -2,7 +2,7 @@
 description-meta: "{{< meta description >}}"
 
 # Date format
-date-format: "dddd, MMMM D, YYYY"
+# date-format: "dddd, MMMM D, YYYY"
 
 # Enable banner style title blocks
 # title-block-banner: "#170C3A"
