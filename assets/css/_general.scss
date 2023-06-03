@@ -21,6 +21,13 @@ p {
   font-size: $font-size-base * 3;
 }
 
+#quarto-embedded-source-code-modal
+  > .modal-dialog
+  > .modal-content
+  > .modal-header {
+  background-color: $card-bg;
+}
+
 #quarto-margin-sidebar {
   .quarto-listing-category-title {
     margin-left: 0.5em;

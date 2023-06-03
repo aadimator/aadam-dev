@@ -2,6 +2,7 @@
 
 // Blog
 .blog {
+    margin-top: 2rem;
     .blog-entry {
         display: flex;
         flex-direction: row;
@@ -68,13 +69,15 @@
     }
 }
 
+$purple:  #170C3A !default;
+
 .blog-post {
     .quarto-title .quarto-categories {
         margin-top: 1.5em;
 
         .quarto-category {
-            // background-color: shift-color($purple, -25%);
-            // border-color: shift-color($purple, -45%);
+            background-color: shift-color($purple, -25%);
+            border-color: shift-color($purple, -45%);
             color: $white;
             font-size: 0.65em;
             opacity: 1;

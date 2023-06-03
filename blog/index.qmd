@@ -1,6 +1,5 @@
 ---
-pagetitle: "Blog"
-title-block-banner: false
+pagetitle: "Blog | Aadam"
 author: ""
 description-meta: "Aadam's blog"
 listing:
@@ -10,14 +9,24 @@ listing:
     template: ../ejs/blog/listing.ejs
     categories: true
 page-layout: full
-toc-title: Year
-toc-location: right
-# date-format: "MMMM D, YYYY"
+toc: false
+# toc-title: Year
+# toc-location: right
+date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
 ---
 
-## 2023
+# Blog
+
+::: {.callout-note appearance="simple"}
+
+## From Pixels to Proteins
+
+**A Computer Scientist's Exploration of Bioinformatics and Beyond**, where the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
+
+:::
+
 
 :::{#posts_2023}
 :::

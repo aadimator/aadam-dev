@@ -2,10 +2,10 @@
 description-meta: "{{< meta description >}}"
 
 # Date format
-# date-format: "dddd, MMMM D, YYYY"
+date-format: "dddd, MMMM D, YYYY"
 
 # Enable banner style title blocks
-# title-block-banner: "#170C3A"
+title-block-banner: "#212129"
 
 # Add blog-post class to the banner header area
 format: 
@@ -17,8 +17,8 @@ format:
     #     category: Blog comments
     #     category-id: DIC_kwDOIg6EJc4CSz92
     #     mapping: pathname
-    # quarto-template-params:
-    #   banner-header-class: "blog-post"
+    quarto-template-params:
+      banner-header-class: "blog-post"
 
 # Default for table of contents
 toc: true
