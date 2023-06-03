@@ -1,32 +1,32 @@
-- name: tedana
-  id: MDEwOlJlcG9zaXRvcnkxMTA4NDU4NTU=
-  url: https://github.com/ME-ICA/tedana
-  stargazers: 140
-  description: TE-dependent analysis of multi-echo fMRI
-- name: aroma
-  id: MDEwOlJlcG9zaXRvcnkzMTE3MDc4NzQ=
-  url: https://github.com/ME-ICA/aroma
-  stargazers: 7
-  description: ICA-AROMA, as a Python package. A work in progress.
-- name: mapca
-  id: MDEwOlJlcG9zaXRvcnkzMjI2ODYzNjU=
-  url: https://github.com/ME-ICA/mapca
-  stargazers: 5
-  description: A Python implementation of the moving average principal components
-    analysis methods from GIFT
-- name: rica
-  id: MDEwOlJlcG9zaXRvcnkzOTExNTU4NjI=
-  url: https://github.com/ME-ICA/rica
-  stargazers: 5
-  description: Rica (Reports for ICA) provides an app to visualize ICA components
-    and perform manual classification in an interactive way
-- name: pySPFM
-  id: R_kgDOHVoxZw
-  url: https://github.com/eurunuela/pySPFM
+- description: My Solutions to the exercises for the Deep Learning Specialization
+    on Coursera
+  id: MDEwOlJlcG9zaXRvcnkxMjAyODUxNjc=
+  name: deep-learning-specialization
+  stargazers: 2
+  url: https://github.com/aadimator/deep-learning-specialization
+- description: My solutions for the Advanced Machine Learning Specialization on Coursera
+  id: MDEwOlJlcG9zaXRvcnkxMjA5MjYzOTk=
+  name: advanced-ml-specialization
+  stargazers: 4
+  url: https://github.com/aadimator/advanced-ml-specialization
+- description: 'My Project Submissions for Machine Learning Engineer Nanodegree -
+    Udacity : https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009'
+  id: MDEwOlJlcG9zaXRvcnk3MTM0NzAwMA==
+  name: machine_learning_nanodegree
+  stargazers: 4
+  url: https://github.com/aadimator/machine_learning_nanodegree
+- description: Udacity's Deep Learning Nanodegree Solution
+  id: MDEwOlJlcG9zaXRvcnkxNjc3NDEyMTA=
+  name: deep-learning-nanodegree
+  stargazers: 0
+  url: https://github.com/aadimator/deep-learning-nanodegree
+- description: My Project Submissions for Android Developer Nanodegree - Udacity https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801
+  id: MDEwOlJlcG9zaXRvcnk3MDkxMTQxOQ==
+  name: android_developer_nanodegree
   stargazers: 1
-  description: Python version of 3dPFM and 3dMEPFM
-- name: pyproximal
-  id: MDEwOlJlcG9zaXRvcnkzMjczNzUzNTI=
-  url: https://github.com/PyLops/pyproximal
-  stargazers: 32
-  description: "PyProximal \u2013 Proximal Operators and Algorithms in Python"
+  url: https://github.com/aadimator/android_developer_nanodegree
+- description: Location tracking and visualization using Augmented Reality
+  id: MDEwOlJlcG9zaXRvcnkxNDA1MjMzMzU=
+  name: khoji
+  stargazers: 9
+  url: https://github.com/aadimator/khoji
