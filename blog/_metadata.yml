@@ -13,12 +13,17 @@ format:
     code-tools: true
     quarto-template-params:
       banner-header-class: "blog-post"
-    # comments:
-    #   giscus: 
-    #     repo: andrewheiss/ath-quarto
-    #     category: Blog comments
-    #     category-id: DIC_kwDOIg6EJc4CSz92
-    #     mapping: pathname
+    comments:
+      giscus: 
+        repo: aadimator/aadam-dev
+        repo-id: R_kgDOJqkpDg
+        category: Blog Comments
+        category-id: DIC_kwDOJqkpDs4CW-VW
+        mapping: title
+        reactions-enabled: true
+        input-position: top
+        theme: transparent_dark
+        loading: lazy
 
 # Default for table of contents
 toc: true
