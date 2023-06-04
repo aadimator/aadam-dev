@@ -6,6 +6,10 @@ project:
       browser: true
       watch-inputs: true
       navigate: true
+  
+  resources:
+    - "assets/**"
+    - "etc/**"
 
 # Metadata
 pagetitle: "{{< meta title >}} | Aadam"
@@ -20,11 +24,11 @@ freeze: true
 website:
   title: "Aadam"
   description: "{{< meta description-meta >}}"
-  favicon: "/images/logo.png"
+  favicon: "/assets/logo.png"
   site-url: "https://aadam.dev/"
   repo-url: "https://github.com/aadimator/aadam_dev"
   # repo-actions: issue
-  image: /images/logo.png
+  image: /assets/logo.png
 
   google-analytics: 
     tracking-id: "UA-527449-5"
@@ -55,11 +59,11 @@ website:
 
 format:
   html:
-    theme: scss/panda.scss
-    css: scss/styles.css
+    theme: _sass/panda.scss
+    css: _sass/styles.css
     highlight-style: 
-      light: scss/highlight-light.theme
-      dark: scss/highlight-dark.theme
+      light: _sass/highlight-light.theme
+      dark: _sass/highlight-dark.theme
     smooth-scroll: true
     link-external-newwindow: true
     toc: false

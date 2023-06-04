@@ -20,4 +20,4 @@ include-back-link: true
 format:
   html:
     template-partials:
-      - ../ejs/research/title-block.html
+      - ../_layout/research/title-block.html

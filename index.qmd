@@ -1,20 +1,20 @@
 ---
 pagetitle: "Aadam"
-main-photo: /images/aadam-2021-square.jpg
-main-photo-square: /images/aadam-2021-square.jpg
+main-photo: /assets/aadam-2021-square.jpg
+main-photo-square: /assets/aadam-2021-square.jpg
 page-layout: full
 anchor-sections: false
 listing:
     - id: github
-      template: ejs/homepage/github.ejs
+      template: _layout/homepage/github.ejs
       contents:
           - github_data.yaml
     - id: books
-      template: ejs/homepage/books.ejs
+      template: _layout/homepage/books.ejs
     - id: interests
-      template: ejs/homepage/interests.ejs
+      template: _layout/homepage/interests.ejs
     - id: contact
-      template: ejs/homepage/contact.ejs
+      template: _layout/homepage/contact.ejs
 ---
 
 {{< fa blank >}} {{< ai blank >}}
@@ -27,7 +27,7 @@ listing:
         <div class="grid">
             <div class="img-container">
                 <img
-                    src="/images/image_animated.svg"
+                    src="/assets/image_animated.svg"
                     alt="{{< meta author-meta >}}"
                 />
             </div>

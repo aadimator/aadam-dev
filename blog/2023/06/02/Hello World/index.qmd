@@ -11,6 +11,8 @@ format:
     reference-location: margin
     code-fold: show
 # image: logo.png
+jupyter: python3
+draft: true
 ---
 
 Hello, world! It's with great excitement and a touch of curiosity that I welcome you to the Bioinformatics Wonderland. I'm thrilled to embark on this new chapter of my scientific journey and share it with all of you. As a computer scientist specializing in machine learning and deep learning, I've recently taken a plunge into the fascinating realm of bioinformatics, where genomics and data science converge.
@@ -28,7 +30,7 @@ Expect a diverse array of content that combines technical insights with practica
 I invite you to join me on this bioinformatics adventure! Subscribe to the blog to stay updated with the latest posts and receive notifications when new resources are available. I encourage you to actively participate by leaving comments, asking questions, and sharing your own insights. Let's build a supportive community where we can learn from each other, inspire one another, and make meaningful contributions to the world of bioinformatics.
 
 
-```py
+```{python}
 print("Hello World")
 print("I wonder how this looks")
 

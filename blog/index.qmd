@@ -7,7 +7,7 @@ listing:
   - id: posts_2023
     contents: "2023/**/index.qmd"
     sort: "date desc"
-    template: ../ejs/blog/listing.ejs
+    template: ../_layout/blog/listing.ejs
     categories: true
 page-layout: full
 toc: false
