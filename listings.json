@@ -1,7 +1,14 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/blog/index.html",
+      "/research/articles/malikCARLAEvolutionCARLA2023/index.html",
+      "/research/articles/halimClusteringGraphsUsing2021/index.html",
+      "/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
+      "/research/articles/malikImplantingIntelligence5G2022/index.html",
+      "/research/index.html"
+    ]
   },
   {
     "listing": "/research/index.html",
@@ -13,14 +20,7 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/blog/index.html",
-      "/research/articles/malikCARLAEvolutionCARLA2023/index.html",
-      "/research/articles/halimClusteringGraphsUsing2021/index.html",
-      "/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
-      "/research/articles/malikImplantingIntelligence5G2022/index.html",
-      "/research/index.html"
-    ]
+    "listing": "/blog/index.html",
+    "items": []
   }
 ]
