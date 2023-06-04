@@ -1,7 +1,8 @@
 /*-- scss:uses --*/
-@use 'theme_variables' as *;
-@use 'general';
-@use 'blog';
-@use 'home_card';
-@use 'profile_card';
-@use 'theme_navbar';
+@use '_theme_variables' as *;
+@use '_general';
+@use '_blog';
+@use '_research';
+@use '_home_card';
+@use '_profile_card';
+@use '_theme_navbar';

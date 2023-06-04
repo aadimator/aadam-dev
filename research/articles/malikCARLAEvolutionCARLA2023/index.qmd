@@ -1,0 +1,96 @@
+---
+title: "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model"
+date: 2023-02-07
+author:
+  - name: Sumbal Malik
+    orcid: 0000-0003-2759-3144
+    affiliation: United Arab Emirates University
+  - name: Manzoor Ahmed Khan
+    orcid: 0000-0002-0319-8126
+    affiliation: United Arab Emirates University
+  - name: Aadam
+    url: https://aadam.dev/
+    orcid: 0000-0002-8543-1429
+    affiliation: United Arab Emirates University
+  - name: Hesham El-Sayed
+    orcid: 0000-0002-7488-0915
+    affiliation: United Arab Emirates University
+  - name: Farkhund Iqbal
+    orcid: 0000-0001-9081-3598
+    affiliation: Zayed University
+  - name: Jalal Khan
+    orcid: 0000-0002-6230-1760
+    affiliation: United Arab Emirates University
+  - name: Obaid Ullah
+    orcid: 0000-0003-1434-7948
+    affiliation: United Arab Emirates University
+categories:
+  - Autonomous driving
+  - Complex dynamics
+  - Urban environment
+  - PGM
+  - CARLA
+pub-info:
+  reference: >-
+    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Iqbal, F., Khan, J., & Ullah, O. (2023). "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model". <em>Drones</em>, 7(2), Article 2. <a href="https://doi.org/10.3390/drones7020111"><code>10.3390/drones7020111</code></a>
+  links:
+  - name: Preprint
+    url: carla-plus-an-evolution.pdf
+    local: true
+    icon: fa-solid fa-file-pdf
+  - name: Final version
+    url: https://doi.org/10.3390/drones7020111
+    icon: fa-solid fa-scroll
+  - name: Code and data
+    url: https://github.com/aadimator/CARLA-Plus
+    icon: fa-brands fa-github
+  - name: Add to Zotero
+    url: https://www.zotero.org/save?type=doi&q=10.3390/drones7020111
+    icon: ai ai-zotero
+doi: 10.3390/drones7020111
+haiku:
+  - Urban chaos thrives
+  - Collaborative driving strives
+  - CARLA+ guides lives
+---
+
+## Important links
+
+- [Paper (preprint)](carla-plus-an-evolution.pdf)
+- [GitHub repository](https://github.com/aadimator/CARLA-Plus)
+
+
+## Abstract
+
+In an urban and uncontrolled environment, the presence of mixed traffic of autonomous vehicles, classical vehicles, vulnerable road users, e.g., pedestrians, and unprecedented dynamic events makes it challenging for the classical autonomous vehicle to navigate the traffic safely. Therefore, the realization of collaborative autonomous driving has the potential to improve road safety and traffic efficiency. However, an obvious challenge in this regard is how to define, model, and simulate the environment that captures the dynamics of a complex and urban environment. Therefore, in this research, we first define the dynamics of the envisioned environment, where we capture the dynamics relevant to the complex urban environment, specifically, highlighting the challenges that are unaddressed and are within the scope of collaborative autonomous driving. To this end, we model the dynamic urban environment leveraging a probabilistic graphical model (PGM). To develop the proposed solution, a realistic simulation environment is required. There are a number of simulators—CARLA (Car Learning to Act), one of the prominent ones, provides rich features and environment; however, it still fails on a few fronts, for example, it cannot fully capture the complexity of an urban environment. Moreover, the classical CARLA mainly relies on manual code and multiple conditional statements, and it provides no pre-defined way to do things automatically based on the dynamic simulation environment. Hence, there is an urgent need to extend the off-the-shelf CARLA with more sophisticated settings that can model the required dynamics. In this regard, we comprehensively design, develop, and implement an extension of a classical CARLA referred to as CARLA+ for the complex environment by integrating the PGM framework. It provides a unified framework to automate the behavior of different actors leveraging PGMs. Instead of manually catering to each condition, CARLA+ enables the user to automate the modeling of different dynamics of the environment. Therefore, to validate the proposed CARLA+, experiments with different settings are designed and conducted. The experimental results demonstrate that CARLA+ is flexible enough to allow users to model various scenarios, ranging from simple controlled models to complex models learned directly from real-world data. In the future, we plan to extend CARLA+ by allowing for more configurable parameters and more flexibility on the type of probabilistic networks and models one can choose. The open-source code of CARLA+ is made publicly available for researchers.
+
+
+## Important figures
+
+
+![Figure 4. Proposed high-level architecture of CARLA+.](fig4.png)
+![Figure 7. Bayesian network of controlled settings along their CPDs.](fig7.png)
+![Figure 8. Distributions resulting from controlled settings. (a) Distribution of Speed. (b) Distribution of Traffic.](fig8.png)
+![Figure 11. Distributions of Speed, Traffic, and Pedestrian counts with respect to time.](fig11.png)
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.3390/drones7020111">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{malikCARLAEvolutionCARLA2023,
+  title = {{{CARLA}}+: {{An Evolution}} of the {{CARLA Simulator}} for {{Complex Environment Using}} a {{Probabilistic Graphical Model}}},
+  shorttitle = {{{CARLA}}+},
+  author = {Malik, Sumbal and Khan, Manzoor Ahmed and Aadam and {El-Sayed}, Hesham and Iqbal, Farkhund and Khan, Jalal and Ullah, Obaid},
+  year = {2023},
+  journal = {Drones},
+  volume = {7},
+  number = {2},
+  pages = {111},
+  publisher = {{Multidisciplinary Digital Publishing Institute}},
+  issn = {2504-446X},
+  doi = {10.3390/drones7020111},
+}
+```

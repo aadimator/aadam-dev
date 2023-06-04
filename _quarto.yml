@@ -48,16 +48,14 @@ website:
     right:
       - text: Blog
         href: blog/index.qmd
-      - text: About
-        href: https://localhost:5555
-      - text: Posts
-        href: https://localhost:5555
+      - text: Research
+        href: research/index.qmd
 
   # reader-mode: true
 
 format:
   html:
-    theme: [litera, assets/css/theme.scss]
+    theme: [assets/css/theme.scss]
     css: assets/css/styles.css
     highlight-style: 
       light: assets/styles/highlight-light.theme

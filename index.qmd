@@ -31,10 +31,10 @@ listing:
                 Hi, I'm Aadam <span style="white-space: nowrap;">👋</span>
                 </p>
                 <p class="tagline">
-                I am a PhD student developing machine learning algorithms for neuroimaging.
+                I am a PhD student developing machine learning algorithms for bioinformatics.
                 </p>
                 <p class="mission">
-                I want to make healthcare more accessible and affordable to everyone.
+                Unlocking the Power of Data: Where Computer Science Fuels Genomic Discoveries
                 </p>
         </div>
         </div>

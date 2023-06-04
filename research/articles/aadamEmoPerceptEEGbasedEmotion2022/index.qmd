@@ -1,0 +1,86 @@
+---
+title: "EmoPercept: EEG-based emotion classification through perceiver"
+date: 2022-01-14
+author:
+  - name: Aadam
+    url: https://aadam.dev/
+    orcid: 0000-0002-8543-1429
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Abdallah Tubaishat
+    orcid: 0000-0002-9621-3574
+    affiliation: Zayed University
+  - name: Feras Al-Obeidat
+    url: https://scholar.google.ca/citations?user=ER0y4HMAAAAJ&hl=en
+    affiliation: Zayed University
+  - name: Zahid Halim
+    orcid: 0000-0003-3094-3483
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Muhammad Waqas
+    orcid: 0000-0003-4288-7976
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Fawad Qayum
+    orcid: 0000-0002-8682-8049
+    affiliation: University of Malakand
+categories:
+  - Deep learning
+  - EEG data
+  - Emotion identification
+  - Perceiver
+pub-info:
+  reference: >-
+    <strong>Aadam</strong>, Tubaishat, A., Al-Obeidat, F., Halim, Z., Waqas, M., & Qayum, F. (2022). "EmoPercept: EEG-based emotion classification through perceiver". <em>Soft Computing</em> 26, 10563–10570 <a href="https://doi.org/10.1007/s00500-021-06578-4"><code>10.1007/s00500-021-06578-4</code></a
+  links:
+  - name: Preprint
+    url: aadam_et_al_2022_emopercept.pdf
+    local: true
+    icon: fa-solid fa-file-pdf
+  - name: Final version
+    url: https://doi.org/10.1007/s00500-021-06578-4
+    icon: fa-solid fa-scroll
+  - name: Code and data
+    url: https://github.com/aadimator/Clustering-of-Graphs-Using-Pseudo-Guided-Random-Walk
+    icon: fa-brands fa-github
+  - name: Add to Zotero
+    url: https://www.zotero.org/save?type=doi&q=10.1007/s00500-021-06578-4
+    icon: ai ai-zotero
+doi: 10.1007/s00500-021-06578-4
+haiku:
+  - Signals hold secrets
+  - Perceiver sees within mind
+  - Emotion's true realm
+---
+
+## Important links
+
+- [Paper (preprint)](aadam_et_al_2022_emopercept.pdf)
+- [GitHub repository](https://github.com/aadimator/Clustering-of-Graphs-Using-Pseudo-Guided-Random-Walk)
+
+
+## Abstract
+
+Emotions play an important role in human cognition and are commonly associated with perception, logical decision making, human interaction, and intelligence. Emotion and stress detection is an emerging topic of interest and importance in the research community. With the availability of portable, cheap, and reliable sensor devices, researchers are opting to use physiological signals for emotion classification as they are more prone to human deception, as compared to audiovisual signals. In recent years, deep neural networks have gained popularity and have inspired new ideas for emotion recognition based on electroencephalogram (EEG) signals. Recently, widespread use of transformer-based architectures has been observed, providing state-of-the-art results in several domains, from natural language processing to computer vision, and object detection. In this work, we investigate the effectiveness and accuracy of a novel transformer-based architecture, called perceiver, which claims to be able to handle inputs from any modality, be it an image, audio, or video. We utilize the perceiver architecture on raw EEG signals taken from one of the most widely used publicly available EEG-based emotion recognition datasets, i.e., DEAP, and compare its results with some of the best performing models in the domain.
+
+
+## Important figures
+
+
+![Figure 2: 2D Spatial mapping used for EEG data](spatial_mapping.png)
+![Table 4: Comparison with several reported studies on DEAP dataset](comparison.png)
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1007/s00500-021-06578-4">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{aadamEmoPerceptEEGbasedEmotion2022,
+  title = {EmoPercept: EEG-based Emotion Classification through Perceiver},
+  author = {{Aadam} and Tubaishat, Abdallah and {Al-Obeidat}, Feras and Halim, Zahid and Waqas, Muhammad and Qayum, Fawad},
+  year = {2022},
+  journal = {Soft Computing},
+  issn = {1433-7479},
+  doi = {10.1007/s00500-021-06578-4},
+}
+
+```

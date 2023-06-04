@@ -1,0 +1,85 @@
+---
+title: "Implanting Intelligence in 5G Mobile Networks—A Practical Approach"
+date: 2022-11-28
+author:
+  - name: Sumbal Malik
+    orcid: 0000-0003-2759-3144
+    affiliation: United Arab Emirates University
+  - name: Manzoor Ahmed Khan
+    orcid: 0000-0002-0319-8126
+    affiliation: United Arab Emirates University
+  - name: Aadam
+    url: https://aadam.dev/
+    orcid: 0000-0002-8543-1429
+    affiliation: United Arab Emirates University
+  - name: Hesham El-Sayed
+    orcid: 0000-0002-7488-0915
+    affiliation: United Arab Emirates University
+  - name: Jalal Khan
+    orcid: 0000-0002-6230-1760
+    affiliation: United Arab Emirates University
+  - name: Obaid Ullah
+    orcid: 0000-0003-1434-7948
+    affiliation: United Arab Emirates University
+categories:
+  - 5G
+  - Network slicing
+  - Machine learning
+  - Random forest
+  - Neural network
+pub-info:
+  reference: >-
+    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Khan, J., & Ullah, O. (2022). "Implanting Intelligence in 5G Mobile Networks—A Practical Approach". <em>Electronics</em>, 11(23), Article 23. <a href="https://doi.org/10.3390/electronics11233933"><code>10.3390/electronics11233933</code></a>
+  links:
+  - name: Preprint
+    url: malik_et_al_2022_implanting_intelligence_in_5g_mobile_networks.pdf
+    local: true
+    icon: fa-solid fa-file-pdf
+  - name: Final version
+    url: https://doi.org/10.3390/electronics11233933
+    icon: fa-solid fa-scroll
+  - name: Add to Zotero
+    url: https://www.zotero.org/save?type=doi&q=10.3390/electronics11233933
+    icon: ai ai-zotero
+doi: 10.3390/electronics11233933
+haiku:
+  - Cities evolve smart
+  - Networks weave intelligence
+  - Slicing future's path
+---
+
+## Important links
+
+- [Paper (preprint)](malik_et_al_2022_implanting_intelligence_in_5g_mobile_networks.pdf)
+
+
+## Abstract
+
+With the advancement in various technological fronts, we are expecting the design goals of smart cities to be realized earlier than expected. Undoubtedly, communication networks play the crucial role of backbone to all the verticals of smart cities, which is why we are surrounded by terminologies such as the Internet of Things, the Internet of Vehicles, the Internet of Medical Things, etc. In this paper, we focus on implanting intelligence in 5G and beyond mobile networks. In this connection, we design and develop a novel data-driven predictive model which may serve as an intelligent slicing framework for different verticals of smart cities. The proposed model is trained on different machine learning algorithms to predict the optimal network slice for a requested service resultantly assisting in allocating enough resources to the slice based on the traffic prediction.
+
+
+## Important figures
+
+
+![Figure 4: Big picture of Data-Driven Network Slice Prediction.](big_picture.png)
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.3390/electronics11233933">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{malikImplantingIntelligence5G2022,
+  title = {Implanting {{Intelligence}} in {{5G Mobile Networks}}—{{A Practical Approach}}},
+  author = {Malik, Sumbal and Khan, Manzoor Ahmed and Aadam and {El-Sayed}, Hesham and Khan, Jalal and Ullah, Obaid},
+  year = {2022},
+  journal = {Electronics},
+  volume = {11},
+  number = {23},
+  pages = {3933},
+  publisher = {{Multidisciplinary Digital Publishing Institute}},
+  issn = {2079-9292},
+  doi = {10.3390/electronics11233933},
+}
+```

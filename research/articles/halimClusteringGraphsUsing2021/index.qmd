@@ -1,0 +1,83 @@
+---
+title: "Clustering of graphs using pseudo-guided random walk"
+date: 2021-01-23
+author:
+  - name: Zahid Halim
+    orcid: 0000-0003-3094-3483
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Hussain Mahmood Sargana
+    orcid: 0000-0003-3016-3882
+    affiliation: Khwaja Fareed University of Engineering and Information Technology
+  - name: Aadam
+    url: https://aadam.dev/
+    orcid: 0000-0002-8543-1429
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Uzma
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+  - name: Muhammad Waqas
+    orcid: 0000-0003-4288-7976
+    affiliation: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+categories:
+  - Graph clustering
+  - Random walk
+  - Efficient clustering
+  - Community detection
+pub-info:
+  reference: >-
+    Halim, Z., Sargana, H. M., <strong>Aadam</strong>, Uzma, & Waqas, M. (2021). "Clustering of graphs using pseudo-guided random walk." <em>Journal of Computational Science</em>, 51, 101281. <a href="https://doi.org/10.1016/j.jocs.2020.101281"><code>10.1016/j.jocs.2020.101281</code></a>
+  links:
+  - name: Preprint
+    url: halim_et_al_2021_clustering_of_graphs_using_pseudo-guided_random_walk.pdf
+    local: true
+    icon: fa-solid fa-file-pdf
+  - name: Final version
+    url: https://doi.org/10.1016/j.jocs.2020.101281
+    icon: fa-solid fa-scroll
+  - name: Code and data
+    url: https://github.com/aadimator/Clustering-of-Graphs-Using-Pseudo-Guided-Random-Walk
+    icon: fa-brands fa-github
+  - name: Add to Zotero
+    url: https://www.zotero.org/save?type=doi&q=10.1016/j.jocs.2020.101281
+    icon: ai ai-zotero
+doi: 10.1016/j.jocs.2020.101281
+haiku:
+  - Clusters emerge bright
+  - Random walks guide the journey
+  - Graphs unveil secrets.
+---
+
+## Important links
+
+- [Paper (preprint)](halim_et_al_2021_clustering_of_graphs_using_pseudo-guided_random_walk.pdf)
+- [GitHub repository](https://github.com/aadimator/Clustering-of-Graphs-Using-Pseudo-Guided-Random-Walk)
+
+
+## Abstract
+
+Clustering is an unsupervised learning task that models data as coherent groups. Multiple approaches have been proposed in the past to cluster large volumes of data. Graphs provide a logical mapping of many real-world datasets rich enough to reflect various peculiarities of numerous domains. Apart from k-means, k-medoid, and other well-known clustering algorithms, utilization of random walk-based approaches to cluster data is a prominent area of data mining research. Markov clustering algorithm and limited random walk-based clustering are the prominent techniques that utilize the concept of random walk. The main goal of this work is to address the task of clustering graphs using an efficient random walk-based method. A novel walk approach in a graph is presented here that determines the weight of the edges and the degree of the nodes. This information is utilized by the pseudo-guidance model to guide the random walk procedure. This work introduces the friends-of-friends concept during the random walk process so that the edges’ weights are determined utilizing an inclusive criterion. This concept enables a random walk to be initiated from the highest degree node. The random walk continues until the walking agent cannot find any unvisited neighbor(s). The agent walks to its neighbors if it finds a weight of one or more, otherwise the agent’s stopping criteria is met. The nodes visited in this walk form a cluster. Once a walk comes to halt, the visited nodes are removed from the original graph and the next walk starts in the remaining graph. This process continues until all nodes of the graph are traversed. The focus of this work remains random walk-based clustering of graphs. The proposed approach is evaluated using 18 real-world benchmark datasets utilizing six cluster validity indices, namely Davies-Bouldin index (DBI), Dunn index (DI), Silhouette coefficient (SC), Calinski-Harabasz index (CHI), modularity index, and normalized cut. This proposal is compared with seven closely related approaches from the same domain, namely, limited random walk, pairwise clustering, personalized page rank clustering, GAKH (genetic algorithm krill herd) graph clustering, mixing time of random walks, density-based clustering of large probabilistic graphs, and Walktrap. Experiments suggest better performance of this work based on the evaluation metrics.
+
+
+## Important figures
+
+![Figure 2: Overall working of the proposed solution.](overall_working.png)
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1016/j.jocs.2020.101281">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{halimClusteringGraphsUsing2021,
+  title = {Clustering of Graphs Using Pseudo-Guided Random Walk},
+  author = {Halim, Zahid and Sargana, Hussain Mahmood and {Aadam} and {Uzma} and Waqas, Muhammad},
+  year = {2021},
+  journaltitle = {Journal of Computational Science},
+  volume = {51},
+  pages = {101281},
+  issn = {18777503},
+  doi = {10.1016/j.jocs.2020.101281},
+  url = {https://www.sciencedirect.com/science/article/pii/S1877750320305779}
+}
+```
