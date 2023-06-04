@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aadam">
+<meta name="description" content="Aadam is a Ph.D.&nbsp;candidate at IUPUI, researching in the field of spatial transcriptomics.">
+
+<title>Aadam</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href=".//images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-github .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-description','listing-id','listing-name','listing-stargazers','listing-url',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-description","listing-id","listing-name","listing-stargazers","listing-url"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-github'] = new List('listing-github', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-books .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-pagetitle','listing-description-meta','listing-author-meta','listing-freeze','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-author','listing-title','listing-subtitle','listing-listing','listing-page-layout','listing-code-tools','listing-comments','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-execute','listing-include-back-link','listing-date','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-description-meta","listing-author-meta","listing-freeze","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-author","listing-title","listing-subtitle","listing-listing","listing-page-layout","listing-code-tools","listing-comments","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-execute","listing-include-back-link","listing-date","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-date-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-books'] = new List('listing-books', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-interests .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-pagetitle','listing-description-meta','listing-author-meta','listing-freeze','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-author','listing-title','listing-subtitle','listing-listing','listing-page-layout','listing-code-tools','listing-comments','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-execute','listing-include-back-link','listing-date','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-description-meta","listing-author-meta","listing-freeze","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-author","listing-title","listing-subtitle","listing-listing","listing-page-layout","listing-code-tools","listing-comments","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-execute","listing-include-back-link","listing-date","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-date-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-interests'] = new List('listing-interests', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-contact .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-pagetitle','listing-description-meta','listing-author-meta','listing-freeze','listing-website','listing-format','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-author','listing-title','listing-subtitle','listing-listing','listing-page-layout','listing-code-tools','listing-comments','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-execute','listing-include-back-link','listing-date','listing-categories','listing-pub-info','listing-doi','listing-haiku','listing-date-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] }],
+      
+      searchColumns: ["listing-project","listing-pagetitle","listing-description-meta","listing-author-meta","listing-freeze","listing-website","listing-format","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-author","listing-title","listing-subtitle","listing-listing","listing-page-layout","listing-code-tools","listing-comments","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-execute","listing-include-back-link","listing-date","listing-categories","listing-pub-info","listing-doi","listing-haiku","listing-date-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-contact'] = new List('listing-contact', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-527449-5', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="scss/styles.css">
+<meta property="og:title" content="Aadam">
+<meta property="og:description" content="Aadam is a Ph.D.&nbsp;candidate at IUPUI, researching in the field of spatial transcriptomics.">
+<meta property="og:image" content="https://aadam.dev//files/profiles/twitter-card-large.png">
+<meta property="og:site-name" content="Aadam">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Aadam">
+<meta name="twitter:description" content="Aadam is a Ph.D.&nbsp;candidate at IUPUI, researching in the field of spatial transcriptomics.">
+<meta name="twitter:image" content="https://aadam.dev//files/profiles/twitter-card-large.png">
+<meta name="twitter:creator" content="@aadimator">
+<meta name="twitter:site" content="@aadimator">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Aadam</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+
+
+<p><i class="fa-solid fa-blank" aria-label="blank"></i> <i class="ai  ai-blank" style="color:black"></i></p>
+<div class="homepage">
+<div class="card-container">
+    <div class="profile-card">
+        <div class="grid">
+            <div class="img-container">
+                <img src="./images/image_animated.svg" alt="Aadam">
+            </div>
+            <div class="bio-container">
+                <p class="greeting">
+                Hi, I'm Aadam <span style="white-space: nowrap;">👋</span>
+                </p>
+                <p class="tagline">
+                I am a PhD student developing machine learning algorithms for bioinformatics.
+                </p>
+                <p class="mission">
+                Unlocking the Power of Data: Where Computer Science Fuels Genomic Discoveries
+                </p>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="grid my-4">
+<div class="g-col-12 g-col-md-6 mb-4 w-full h-full">
+<div id="listing-github" class="w-full h-full quarto-listing quarto-listing-container-custom">
+<div class="d-flex justify-content-center w-full h-full">
+  <a href="http://github.com/aadimator" target="_blank" class="text-decoration-none">
+    </a><div class="home-card w-full h-full"><a href="http://github.com/aadimator" target="_blank" class="text-decoration-none">
+      <div class="item-header d-flex justify-content-between mb-4">
+        <h5 class="text-center font-weight-bold">
+          Featured projects
+        </h5>
+        <div class="d-flex justify-content-end align-items-center">
+          <i class="bi bi-github"></i>
+        </div>
+      </div>
+      </a><div class="item"><a href="http://github.com/aadimator" target="_blank" class="text-decoration-none">
+        </a><a href="https://github.com/aadimator/deep-learning-specialization" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">deep-learning-specialization</p>
+              <p class="item-description">
+                My Solutions to the exercises for the Deep Learning Specialization on Coursera
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                2
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/aadimator/advanced-ml-specialization" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">advanced-ml-specialization</p>
+              <p class="item-description">
+                My solutions for the Advanced Machine Learning Specialization on Coursera
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                4
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/aadimator/machine_learning_nanodegree" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">machine_learning_nanodegree</p>
+              <p class="item-description">
+                My Project Submissions for Machine Learning Engineer Nanodegree - Udacity : https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                4
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/aadimator/deep-learning-nanodegree" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">deep-learning-nanodegree</p>
+              <p class="item-description">
+                Udacity's Deep Learning Nanodegree Solution
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                0
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/aadimator/android_developer_nanodegree" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">android_developer_nanodegree</p>
+              <p class="item-description">
+                My Project Submissions for Android Developer Nanodegree - Udacity https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                1
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://github.com/aadimator/khoji" target="_blank" class="item-link">
+          <div class="d-flex justify-content-between">
+            <div class="item-info">
+              <p class="font-weight-bold">khoji</p>
+              <p class="item-description">
+                Location tracking and visualization using Augmented Reality
+              </p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="star-count">
+                9
+              </p>
+              <i class="star bi bi-star"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6 mb-4 w-full h-full">
+<div id="listing-books" class="w-full h-full quarto-listing quarto-listing-container-custom">
+<div class="d-flex justify-content-center w-full h-full">
+  <a href="https://literal.club/aadam" target="_blank" class="text-decoration-none w-full h-full">
+    <div class="home-card">
+      <div class="item-header d-flex justify-content-between">
+        <h5 class="text-center font-weight-bold">Books I'm reading</h5>
+        <div class="d-flex justify-content-end align-items-center">
+          <i class="bi bi-book"></i>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between">
+        <div id="literal-widget" handle="aadam" status="IS_READING" layout="list"></div>
+      </div>
+    </div>
+  </a>
+</div>
+<script src="https://literal.club/js/widget.js"></script>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+<div class="grid my-4">
+<div class="g-col-12 g-col-md-6 mb-4 w-full h-full">
+<div id="listing-interests" class="w-full h-full quarto-listing quarto-listing-container-custom">
+<div class="d-flex justify-content-center w-full h-full">
+  <div class="home-card w-full h-full">
+    <div class="item-header d-flex justify-content-between mb-4">
+      <h5 class="text-center font-weight-bold">My Interests</h5>
+      <div class="d-flex justify-content-end align-items-center">
+        <i class="bi bi-tags"></i>
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-between">
+      <ul class="d-flex flex-column p-0 list-unstyled">
+        <li class="mt-2">
+          <div class="interests-grid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon">
+              <polyline points="4 17 10 11 4 5"></polyline>
+              <line x1="12" y1="19" x2="20" y2="19"></line>
+            </svg>
+            <p style="grid-column: span 9 / span 9">
+              Craft <span class="highlight">machine</span> and
+              <span class="highlight">deep learning</span> wonders, where
+              creativity meets algorithms.
+            </p>
+          </div>
+        </li>
+        <li class="mt-2">
+          <div class="interests-grid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon">
+              <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+            </svg>
+            <p style="grid-column: span 9 / span 9">
+              Discover the art of
+              <a href="https://notes.aadam.dev">note-making</a> with captivating
+              tools that amplify the power of thought.
+            </p>
+          </div>
+        </li>
+        <li class="mt-2">
+          <div class="interests-grid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <p style="grid-column: span 9 / span 9">
+              Explore the fascinating world of
+              <span class="highlight">biology and bioinformatics</span>,
+              unraveling nature's hidden wisdom.
+            </p>
+          </div>
+        </li>
+        <li class="mt-2">
+          <div class="interests-grid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon">
+              <line x1="18" y1="10" x2="6" y2="10"></line>
+              <line x1="21" y1="6" x2="3" y2="6"></line>
+              <line x1="21" y1="14" x2="3" y2="14"></line>
+              <line x1="18" y1="18" x2="6" y2="18"></line>
+            </svg>
+            <p style="grid-column: span 9 / span 9">
+              Pen <span class="highlight">poetic verses</span>, painting
+              emotions with words, a soulful expression amidst the chaos.
+            </p>
+          </div>
+        </li>
+        <li class="mt-2">
+          <div class="interests-grid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <p style="grid-column: span 9 / span 9">
+              Immerse in captivating tales from books, manga, and more, where
+              <span class="highlight">stories</span> ignite the imagination.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6 mb-4 w-full h-full">
+<div id="listing-contact" class="w-full h-full quarto-listing quarto-listing-container-custom">
+<div class="d-flex justify-content-center w-full h-full">
+  <div class="home-card w-full h-full">
+    <div class="item-header d-flex justify-content-between mb-4">
+      <h5 class="text-center font-weight-bold">Let's Connect</h5>
+      <div class="d-flex justify-content-end align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="primary">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="d-flex flex-column justify-content-between">
+      <div class="contact-grid">
+        <div>
+          <a href="https://www.twitter.com/aadimator" target="_blank" class="py-3 px-10 text-decoration-none contact-link">
+            <div class="d-flex flex-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="interests-icon mt-0">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg><span>DM me on <span class="primary">Twitter</span></span>
+            </div></a>
+        </div>
+        <div>
+          <a href="mailto:mraadam@iu.edu" target="_blank" class="py-3 px-10 text-decoration-none contact-link">
+            <div class="d-flex flex-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0 interests-icon">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Reach me via <span class="primary">Email</span></span>
+            </div></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/aadimator" target="_blank" class="py-3 px-10 text-decoration-none contact-link">
+            <div class="d-flex flex-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0 interests-icon">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle></svg><span>Add me on <span class="primary">LinkedIn</span></span>
+            </div></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/aadimator/" target="_blank" class="py-3 px-10 text-decoration-none contact-link">
+            <div class="d-flex flex-row">
+              <i class="bi bi-instagram interests-icon mt-0"></i>
+              <span>Find me on <span class="primary">Instagram</span></span>
+            </div></a>
+        </div>
+        <div>
+          <a href="https://mastodon.social/@aadam" target="_blank" class="py-3 px-10 text-decoration-none contact-link">
+            <div class="d-flex flex-row">
+              <i class="bi bi-mastodon interests-icon mt-0"></i>
+              <span>Follow me in the <span class="primary">Fediverse</span></span>
+            </div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/aadam\.dev\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Here the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/articles/halimClusteringGraphsUsing2021/index.html",
+    "href": "research/articles/halimClusteringGraphsUsing2021/index.html",
+    "title": "Clustering of graphs using pseudo-guided random walk",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/halimClusteringGraphsUsing2021/index.html#important-links",
+    "href": "research/articles/halimClusteringGraphsUsing2021/index.html#important-links",
+    "title": "Clustering of graphs using pseudo-guided random walk",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/halimClusteringGraphsUsing2021/index.html#abstract",
+    "href": "research/articles/halimClusteringGraphsUsing2021/index.html#abstract",
+    "title": "Clustering of graphs using pseudo-guided random walk",
+    "section": "Abstract",
+    "text": "Abstract\nClustering is an unsupervised learning task that models data as coherent groups. Multiple approaches have been proposed in the past to cluster large volumes of data. Graphs provide a logical mapping of many real-world datasets rich enough to reflect various peculiarities of numerous domains. Apart from k-means, k-medoid, and other well-known clustering algorithms, utilization of random walk-based approaches to cluster data is a prominent area of data mining research. Markov clustering algorithm and limited random walk-based clustering are the prominent techniques that utilize the concept of random walk. The main goal of this work is to address the task of clustering graphs using an efficient random walk-based method. A novel walk approach in a graph is presented here that determines the weight of the edges and the degree of the nodes. This information is utilized by the pseudo-guidance model to guide the random walk procedure. This work introduces the friends-of-friends concept during the random walk process so that the edges’ weights are determined utilizing an inclusive criterion. This concept enables a random walk to be initiated from the highest degree node. The random walk continues until the walking agent cannot find any unvisited neighbor(s). The agent walks to its neighbors if it finds a weight of one or more, otherwise the agent’s stopping criteria is met. The nodes visited in this walk form a cluster. Once a walk comes to halt, the visited nodes are removed from the original graph and the next walk starts in the remaining graph. This process continues until all nodes of the graph are traversed. The focus of this work remains random walk-based clustering of graphs. The proposed approach is evaluated using 18 real-world benchmark datasets utilizing six cluster validity indices, namely Davies-Bouldin index (DBI), Dunn index (DI), Silhouette coefficient (SC), Calinski-Harabasz index (CHI), modularity index, and normalized cut. This proposal is compared with seven closely related approaches from the same domain, namely, limited random walk, pairwise clustering, personalized page rank clustering, GAKH (genetic algorithm krill herd) graph clustering, mixing time of random walks, density-based clustering of large probabilistic graphs, and Walktrap. Experiments suggest better performance of this work based on the evaluation metrics."
+  },
+  {
+    "objectID": "research/articles/halimClusteringGraphsUsing2021/index.html#important-figures",
+    "href": "research/articles/halimClusteringGraphsUsing2021/index.html#important-figures",
+    "title": "Clustering of graphs using pseudo-guided random walk",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 2: Overall working of the proposed solution."
+  },
+  {
+    "objectID": "research/articles/halimClusteringGraphsUsing2021/index.html#citation",
+    "href": "research/articles/halimClusteringGraphsUsing2021/index.html#citation",
+    "title": "Clustering of graphs using pseudo-guided random walk",
+    "section": "Citation",
+    "text": "Citation\n\n Add to Zotero \n\n@article{halimClusteringGraphsUsing2021,\n  title = {Clustering of Graphs Using Pseudo-Guided Random Walk},\n  author = {Halim, Zahid and Sargana, Hussain Mahmood and {Aadam} and {Uzma} and Waqas, Muhammad},\n  year = {2021},\n  journaltitle = {Journal of Computational Science},\n  volume = {51},\n  pages = {101281},\n  issn = {18777503},\n  doi = {10.1016/j.jocs.2020.101281},\n  url = {https://www.sciencedirect.com/science/article/pii/S1877750320305779}\n}"
+  },
+  {
+    "objectID": "research/articles/malikCARLAEvolutionCARLA2023/index.html",
+    "href": "research/articles/malikCARLAEvolutionCARLA2023/index.html",
+    "title": "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/malikCARLAEvolutionCARLA2023/index.html#important-links",
+    "href": "research/articles/malikCARLAEvolutionCARLA2023/index.html#important-links",
+    "title": "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/malikCARLAEvolutionCARLA2023/index.html#abstract",
+    "href": "research/articles/malikCARLAEvolutionCARLA2023/index.html#abstract",
+    "title": "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model",
+    "section": "Abstract",
+    "text": "Abstract\nIn an urban and uncontrolled environment, the presence of mixed traffic of autonomous vehicles, classical vehicles, vulnerable road users, e.g., pedestrians, and unprecedented dynamic events makes it challenging for the classical autonomous vehicle to navigate the traffic safely. Therefore, the realization of collaborative autonomous driving has the potential to improve road safety and traffic efficiency. However, an obvious challenge in this regard is how to define, model, and simulate the environment that captures the dynamics of a complex and urban environment. Therefore, in this research, we first define the dynamics of the envisioned environment, where we capture the dynamics relevant to the complex urban environment, specifically, highlighting the challenges that are unaddressed and are within the scope of collaborative autonomous driving. To this end, we model the dynamic urban environment leveraging a probabilistic graphical model (PGM). To develop the proposed solution, a realistic simulation environment is required. There are a number of simulators—CARLA (Car Learning to Act), one of the prominent ones, provides rich features and environment; however, it still fails on a few fronts, for example, it cannot fully capture the complexity of an urban environment. Moreover, the classical CARLA mainly relies on manual code and multiple conditional statements, and it provides no pre-defined way to do things automatically based on the dynamic simulation environment. Hence, there is an urgent need to extend the off-the-shelf CARLA with more sophisticated settings that can model the required dynamics. In this regard, we comprehensively design, develop, and implement an extension of a classical CARLA referred to as CARLA+ for the complex environment by integrating the PGM framework. It provides a unified framework to automate the behavior of different actors leveraging PGMs. Instead of manually catering to each condition, CARLA+ enables the user to automate the modeling of different dynamics of the environment. Therefore, to validate the proposed CARLA+, experiments with different settings are designed and conducted. The experimental results demonstrate that CARLA+ is flexible enough to allow users to model various scenarios, ranging from simple controlled models to complex models learned directly from real-world data. In the future, we plan to extend CARLA+ by allowing for more configurable parameters and more flexibility on the type of probabilistic networks and models one can choose. The open-source code of CARLA+ is made publicly available for researchers."
+  },
+  {
+    "objectID": "research/articles/malikCARLAEvolutionCARLA2023/index.html#important-figures",
+    "href": "research/articles/malikCARLAEvolutionCARLA2023/index.html#important-figures",
+    "title": "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 4. Proposed high-level architecture of CARLA+.\n\n\n\n\n\nFigure 7. Bayesian network of controlled settings along their CPDs.\n\n\n\n\n\nFigure 8. Distributions resulting from controlled settings. (a) Distribution of Speed. (b) Distribution of Traffic.\n\n\n\n\n\nFigure 11. Distributions of Speed, Traffic, and Pedestrian counts with respect to time."
+  },
+  {
+    "objectID": "research/articles/malikCARLAEvolutionCARLA2023/index.html#citation",
+    "href": "research/articles/malikCARLAEvolutionCARLA2023/index.html#citation",
+    "title": "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model",
+    "section": "Citation",
+    "text": "Citation\n\n Add to Zotero \n\n@article{malikCARLAEvolutionCARLA2023,\n  title = {{{CARLA}}+: {{An Evolution}} of the {{CARLA Simulator}} for {{Complex Environment Using}} a {{Probabilistic Graphical Model}}},\n  shorttitle = {{{CARLA}}+},\n  author = {Malik, Sumbal and Khan, Manzoor Ahmed and Aadam and {El-Sayed}, Hesham and Iqbal, Farkhund and Khan, Jalal and Ullah, Obaid},\n  year = {2023},\n  journal = {Drones},\n  volume = {7},\n  number = {2},\n  pages = {111},\n  publisher = {{Multidisciplinary Digital Publishing Institute}},\n  issn = {2504-446X},\n  doi = {10.3390/drones7020111},\n}"
+  },
+  {
+    "objectID": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
+    "href": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
+    "title": "EmoPercept: EEG-based emotion classification through perceiver",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#important-links",
+    "href": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#important-links",
+    "title": "EmoPercept: EEG-based emotion classification through perceiver",
+    "section": "",
+    "text": "Paper (preprint)\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#abstract",
+    "href": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#abstract",
+    "title": "EmoPercept: EEG-based emotion classification through perceiver",
+    "section": "Abstract",
+    "text": "Abstract\nEmotions play an important role in human cognition and are commonly associated with perception, logical decision making, human interaction, and intelligence. Emotion and stress detection is an emerging topic of interest and importance in the research community. With the availability of portable, cheap, and reliable sensor devices, researchers are opting to use physiological signals for emotion classification as they are more prone to human deception, as compared to audiovisual signals. In recent years, deep neural networks have gained popularity and have inspired new ideas for emotion recognition based on electroencephalogram (EEG) signals. Recently, widespread use of transformer-based architectures has been observed, providing state-of-the-art results in several domains, from natural language processing to computer vision, and object detection. In this work, we investigate the effectiveness and accuracy of a novel transformer-based architecture, called perceiver, which claims to be able to handle inputs from any modality, be it an image, audio, or video. We utilize the perceiver architecture on raw EEG signals taken from one of the most widely used publicly available EEG-based emotion recognition datasets, i.e., DEAP, and compare its results with some of the best performing models in the domain."
+  },
+  {
+    "objectID": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#important-figures",
+    "href": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#important-figures",
+    "title": "EmoPercept: EEG-based emotion classification through perceiver",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 2: 2D Spatial mapping used for EEG data\n\n\n\n\n\nTable 4: Comparison with several reported studies on DEAP dataset"
+  },
+  {
+    "objectID": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#citation",
+    "href": "research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html#citation",
+    "title": "EmoPercept: EEG-based emotion classification through perceiver",
+    "section": "Citation",
+    "text": "Citation\n\n Add to Zotero \n\n@article{aadamEmoPerceptEEGbasedEmotion2022,\n  title = {EmoPercept: EEG-based Emotion Classification through Perceiver},\n  author = {{Aadam} and Tubaishat, Abdallah and {Al-Obeidat}, Feras and Halim, Zahid and Waqas, Muhammad and Qayum, Fawad},\n  year = {2022},\n  journal = {Soft Computing},\n  issn = {1433-7479},\n  doi = {10.1007/s00500-021-06578-4},\n}"
+  },
+  {
+    "objectID": "research/articles/malikImplantingIntelligence5G2022/index.html",
+    "href": "research/articles/malikImplantingIntelligence5G2022/index.html",
+    "title": "Implanting Intelligence in 5G Mobile Networks—A Practical Approach",
+    "section": "",
+    "text": "Paper (preprint)"
+  },
+  {
+    "objectID": "research/articles/malikImplantingIntelligence5G2022/index.html#important-links",
+    "href": "research/articles/malikImplantingIntelligence5G2022/index.html#important-links",
+    "title": "Implanting Intelligence in 5G Mobile Networks—A Practical Approach",
+    "section": "",
+    "text": "Paper (preprint)"
+  },
+  {
+    "objectID": "research/articles/malikImplantingIntelligence5G2022/index.html#abstract",
+    "href": "research/articles/malikImplantingIntelligence5G2022/index.html#abstract",
+    "title": "Implanting Intelligence in 5G Mobile Networks—A Practical Approach",
+    "section": "Abstract",
+    "text": "Abstract\nWith the advancement in various technological fronts, we are expecting the design goals of smart cities to be realized earlier than expected. Undoubtedly, communication networks play the crucial role of backbone to all the verticals of smart cities, which is why we are surrounded by terminologies such as the Internet of Things, the Internet of Vehicles, the Internet of Medical Things, etc. In this paper, we focus on implanting intelligence in 5G and beyond mobile networks. In this connection, we design and develop a novel data-driven predictive model which may serve as an intelligent slicing framework for different verticals of smart cities. The proposed model is trained on different machine learning algorithms to predict the optimal network slice for a requested service resultantly assisting in allocating enough resources to the slice based on the traffic prediction."
+  },
+  {
+    "objectID": "research/articles/malikImplantingIntelligence5G2022/index.html#important-figures",
+    "href": "research/articles/malikImplantingIntelligence5G2022/index.html#important-figures",
+    "title": "Implanting Intelligence in 5G Mobile Networks—A Practical Approach",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 4: Big picture of Data-Driven Network Slice Prediction."
+  },
+  {
+    "objectID": "research/articles/malikImplantingIntelligence5G2022/index.html#citation",
+    "href": "research/articles/malikImplantingIntelligence5G2022/index.html#citation",
+    "title": "Implanting Intelligence in 5G Mobile Networks—A Practical Approach",
+    "section": "Citation",
+    "text": "Citation\n\n Add to Zotero \n\n@article{malikImplantingIntelligence5G2022,\n  title = {Implanting {{Intelligence}} in {{5G Mobile Networks}}—{{A Practical Approach}}},\n  author = {Malik, Sumbal and Khan, Manzoor Ahmed and Aadam and {El-Sayed}, Hesham and Khan, Jalal and Ullah, Obaid},\n  year = {2022},\n  journal = {Electronics},\n  volume = {11},\n  number = {23},\n  pages = {3933},\n  publisher = {{Multidisciplinary Digital Publishing Institute}},\n  issn = {2079-9292},\n  doi = {10.3390/electronics11233933},\n}"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Welcome to the “Research” section, a compilation of my published articles that showcase the intersection of computer science and bioinformatics. Previously, my research primarily focused on CS-heavy topics, highlighting my expertise in machine learning and deep learning. However, as I embark on my PhD journey in bioinformatics, this section will feature groundbreaking studies and discoveries specifically related to the application of data science in genomics, single-cell transcriptomics, and advancing cancer therapeutics. Join me as we delve into the forefront of research where computer science meets the complexities of biology."
+  },
+  {
+    "objectID": "research/index.html#journal-articles",
+    "href": "research/index.html#journal-articles",
+    "title": "Research",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\n\n        \n            \n                Malik, S., Khan, M. A., Aadam, El-Sayed, H., Iqbal, F., Khan, J., & Ullah, O. (2023). \"CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model\". Drones, 7(2), Article 2. 10.3390/drones7020111\n            \n            \n                    \n                            Autonomous driving\n                        \n                    \n                            Complex dynamics\n                        \n                    \n                            Urban environment\n                        \n                    \n                            PGM\n                        \n                    \n                            CARLA\n                        \n            \n            \n                Urban chaos thrives\n                 / Collaborative driving strives\n                 / CARLA+ guides lives\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Preprint\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code and data\n                        \n                    \n                    \n                        \n                             Add to Zotero\n                        \n                    \n                \n            \n        \n        \n            \n                Malik, S., Khan, M. A., Aadam, El-Sayed, H., Khan, J., & Ullah, O. (2022). \"Implanting Intelligence in 5G Mobile Networks—A Practical Approach\". Electronics, 11(23), Article 23. 10.3390/electronics11233933\n            \n            \n                    \n                            5G\n                        \n                    \n                            Network slicing\n                        \n                    \n                            Machine learning\n                        \n                    \n                            Random forest\n                        \n                    \n                            Neural network\n                        \n            \n            \n                Cities evolve smart\n                 / Networks weave intelligence\n                 / Slicing future's path\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Preprint\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Add to Zotero\n                        \n                    \n                \n            \n        \n        \n            \n                Aadam, Tubaishat, A., Al-Obeidat, F., Halim, Z., Waqas, M., & Qayum, F. (2022). \"EmoPercept: EEG-based emotion classification through perceiver\". Soft Computing 26, 10563–10570 10.1007/s00500-021-06578-4\n            \n            \n                    \n                            Deep learning\n                        \n                    \n                            EEG data\n                        \n                    \n                            Emotion identification\n                        \n                    \n                            Perceiver\n                        \n            \n            \n                Signals hold secrets\n                 / Perceiver sees within mind\n                 / Emotion's true realm\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Preprint\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code and data\n                        \n                    \n                    \n                        \n                             Add to Zotero\n                        \n                    \n                \n            \n        \n        \n            \n                Halim, Z., Sargana, H. M., Aadam, Uzma, & Waqas, M. (2021). \"Clustering of graphs using pseudo-guided random walk.\" Journal of Computational Science, 51, 101281. 10.1016/j.jocs.2020.101281\n            \n            \n                    \n                            Graph clustering\n                        \n                    \n                            Random walk\n                        \n                    \n                            Efficient clustering\n                        \n                    \n                            Community detection\n                        \n            \n            \n                Clusters emerge bright\n                 / Random walks guide the journey\n                 / Graphs unveil secrets.\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Preprint\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code and data\n                        \n                    \n                    \n                        \n                             Add to Zotero\n                        \n                    \n                \n            \n        \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aadam",
+    "section": "",
+    "text": "Hi, I'm Aadam 👋\n                \n                \n                I am a PhD student developing machine learning algorithms for bioinformatics.\n                \n                \n                Unlocking the Power of Data: Where Computer Science Fuels Genomic Discoveries\n                \n        \n        \n    \n\n\n\n\n\n  \n    \n      \n        \n          Featured projects\n        \n        \n          \n        \n      \n      \n        \n          \n            \n              deep-learning-specialization\n              \n                My Solutions to the exercises for the Deep Learning Specialization on Coursera\n              \n            \n            \n              \n                2\n              \n              \n            \n          \n        \n      \n      \n        \n          \n            \n              advanced-ml-specialization\n              \n                My solutions for the Advanced Machine Learning Specialization on Coursera\n              \n            \n            \n              \n                4\n              \n              \n            \n          \n        \n      \n      \n        \n          \n            \n              machine_learning_nanodegree\n              \n                My Project Submissions for Machine Learning Engineer Nanodegree - Udacity : https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009\n              \n            \n            \n              \n                4\n              \n              \n            \n          \n        \n      \n      \n        \n          \n            \n              deep-learning-nanodegree\n              \n                Udacity's Deep Learning Nanodegree Solution\n              \n            \n            \n              \n                0\n              \n              \n            \n          \n        \n      \n      \n        \n          \n            \n              android_developer_nanodegree\n              \n                My Project Submissions for Android Developer Nanodegree - Udacity https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801\n              \n            \n            \n              \n                1\n              \n              \n            \n          \n        \n      \n      \n        \n          \n            \n              khoji\n              \n                Location tracking and visualization using Augmented Reality\n              \n            \n            \n              \n                9\n              \n              \n            \n          \n        \n      \n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n  \n    \n      \n        Books I'm reading\n        \n          \n        \n      \n      \n        \n      \n    \n  \n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n  \n    \n      My Interests\n      \n        \n      \n    \n    \n      \n        \n          \n            \n              \n              \n            \n            \n              Craft machine and\n              deep learning wonders, where\n              creativity meets algorithms.\n            \n          \n        \n        \n          \n            \n              \n            \n            \n              Discover the art of\n              note-making with captivating\n              tools that amplify the power of thought.\n            \n          \n        \n        \n          \n            \n              \n              \n            \n            \n              Explore the fascinating world of\n              biology and bioinformatics,\n              unraveling nature's hidden wisdom.\n            \n          \n        \n        \n          \n            \n              \n              \n              \n              \n            \n            \n              Pen poetic verses, painting\n              emotions with words, a soulful expression amidst the chaos.\n            \n          \n        \n        \n          \n            \n              \n              \n            \n            \n              Immerse in captivating tales from books, manga, and more, where\n              stories ignite the imagination.\n            \n          \n        \n      \n    \n  \n\n\nNo matching items\n\n\n\n\n\n\n  \n    \n      Let's Connect\n      \n        \n          \n          \n        \n      \n    \n    \n      \n        \n          \n            \n              \n                DM me on Twitter\n            \n        \n        \n          \n            \n              \n                \n                \n              \n              Reach me via Email\n            \n        \n        \n          \n            \n              \n                \n                \n                Add me on LinkedIn\n            \n        \n        \n          \n            \n              \n              Find me on Instagram\n            \n        \n        \n          \n            \n              \n              Follow me in the Fediverse\n            \n        \n      \n    \n  \n\n\nNo matching items"
+  }
+]
