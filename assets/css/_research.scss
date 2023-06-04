@@ -1,4 +1,4 @@
-@use 'theme_variables' as *;
+@use '_theme_variables' as *;
 
 .quarto-title-block {
   .haiku {
@@ -36,6 +36,10 @@
     white-space: nowrap;
     padding: 0 1em 0 0;
     font-weight: bold;
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -45,12 +49,12 @@
 
 .research {
   .back-nav a {
-    color: shift-color($primary, -50%);
+    color: shift-color($card-bg, -50%);
   }
 
   .quarto-title .quarto-categories .quarto-category {
-    background-color: shift-color($primary, -75%);
-    color: $primary;
+    background-color: shift-color($card-bg, -75%);
+    color: $card-bg;
     font-size: 0.65em;
     opacity: 1;
   }
@@ -82,7 +86,7 @@
 
     li.project {
       margin-bottom: 2.5em;
-      border-left: 6px solid shift-color($primary, -90%);
+      border-left: 6px solid shift-color($primary, 80%);
 
       p {
         margin: 0;
@@ -121,7 +125,7 @@
 
   .project-details-listing {
     margin-top: 0.8em;
-    background-color: shift-color($primary, -90%);
+    background-color: shift-color($primary, 80%);
     font-size: 0.9rem;
 
     @media (max-width: 768px) {
@@ -135,7 +139,7 @@
     }
 
     .details {
-      background-color: $primary;
+      background-color: shift-color($primary, 50%);
       padding-right: 1.5em;
 
       a {

@@ -69,8 +69,11 @@ In an urban and uncontrolled environment, the presence of mixed traffic of auton
 
 
 ![Figure 4. Proposed high-level architecture of CARLA+.](fig4.png)
+
 ![Figure 7. Bayesian network of controlled settings along their CPDs.](fig7.png)
+
 ![Figure 8. Distributions resulting from controlled settings. (a) Distribution of Speed. (b) Distribution of Traffic.](fig8.png)
+
 ![Figure 11. Distributions of Speed, Traffic, and Pedestrian counts with respect to time.](fig11.png)
 
 ## Citation

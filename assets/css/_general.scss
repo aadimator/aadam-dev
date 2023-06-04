@@ -12,6 +12,32 @@ p {
   font-family: $font-family-sans-serif !important;
 }
 
+a {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+  -moz-text-decoration: none !important;
+  -ms-text-decoration: none !important;
+  -o-text-decoration: none !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline !important;
+    -webkit-text-decoration: underline !important;
+    -moz-text-decoration: underline !important;
+    -ms-text-decoration: underline !important;
+    -o-text-decoration: underline !important;
+  }
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
+  -moz-text-decoration: none !important;
+  -ms-text-decoration: none !important;
+  -o-text-decoration: none !important;
+}
+
 .heading-font {
   font-family: $font-family-sans-serif;
 }

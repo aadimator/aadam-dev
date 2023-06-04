@@ -1,5 +1,7 @@
 ---
-pagetitle: "Blog | Aadam"
+title: "Blog"
+subtitle: "From Pixels to Proteins: A Computer Scientist's Exploration of Bioinformatics and Beyond"
+title-block-banner: "#212129"
 author: ""
 description-meta: "Aadam's blog"
 listing:
@@ -17,13 +19,9 @@ code-tools: false
 comments: false
 ---
 
-# Blog
-
 ::: {.callout-note appearance="simple"}
 
-## From Pixels to Proteins
-
-**A Computer Scientist's Exploration of Bioinformatics and Beyond**, where the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
+Here the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
 
 :::
 

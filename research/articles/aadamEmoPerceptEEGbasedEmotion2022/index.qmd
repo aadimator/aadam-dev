@@ -65,7 +65,9 @@ Emotions play an important role in human cognition and are commonly associated w
 
 
 ![Figure 2: 2D Spatial mapping used for EEG data](spatial_mapping.png)
+
 ![Table 4: Comparison with several reported studies on DEAP dataset](comparison.png)
+
 
 ## Citation
 

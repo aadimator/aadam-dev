@@ -55,7 +55,7 @@ website:
 
 format:
   html:
-    theme: [assets/css/theme.scss]
+    theme: assets/css/panda.scss
     css: assets/css/styles.css
     highlight-style: 
       light: assets/styles/highlight-light.theme
