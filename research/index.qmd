@@ -13,11 +13,11 @@ toc: false
 # toc-location: right
 ---
 
-::: {.callout-note appearance="simple"}
+<!-- ::: {.callout-note appearance="simple"} -->
 
-Welcome to the "Research" section, a compilation of my published articles that showcase the intersection of computer science and bioinformatics. Previously, my research primarily focused on CS-heavy topics, highlighting my expertise in machine learning and deep learning. However, as I embark on my PhD journey in bioinformatics, this section will feature groundbreaking studies and discoveries specifically related to the application of data science in genomics, single-cell transcriptomics, and advancing cancer therapeutics. Join me as we delve into the forefront of research where computer science meets the complexities of biology. {{< ai blank >}} {{< fa blank >}}
+> Welcome to the "Research" section, a compilation of my published articles that showcase the intersection of computer science and bioinformatics. Previously, my research primarily focused on CS-heavy topics, highlighting my expertise in machine learning and deep learning. However, as I embark on my PhD journey in bioinformatics, this section will feature groundbreaking studies and discoveries specifically related to the application of data science in genomics, single-cell transcriptomics, and advancing cancer therapeutics. Join me as we delve into the forefront of research where computer science meets the complexities of biology. {{< ai blank >}} {{< fa blank >}}
 
-:::
+<!-- ::: -->
 
 
 ## Journal articles

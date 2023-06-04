@@ -18,11 +18,11 @@ code-tools: false
 comments: false
 ---
 
-::: {.callout-note appearance="simple"}
+<!-- ::: {.callout-note appearance="simple"} -->
 
-Here the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
+> Here the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
 
-:::
+<!-- ::: -->
 
 
 :::{#posts_2023}

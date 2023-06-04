@@ -11,6 +11,10 @@ listing:
           - github_data.yaml
     - id: books
       template: ejs/homepage/books.ejs
+    - id: interests
+      template: ejs/homepage/interests.ejs
+    - id: contact
+      template: ejs/homepage/contact.ejs
 ---
 
 {{< fa blank >}} {{< ai blank >}}
@@ -63,4 +67,24 @@ listing:
 
 :::
 
+::: {.grid .my-4}
+
+
+::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+
+::: {#interests .w-full .h-full}
 :::
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+
+::: {#contact .w-full .h-full}
+:::
+
+:::
+
+:::
+
+:::
+

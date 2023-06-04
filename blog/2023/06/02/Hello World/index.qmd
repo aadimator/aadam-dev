@@ -27,6 +27,17 @@ Expect a diverse array of content that combines technical insights with practica
 ## Join the Journey
 I invite you to join me on this bioinformatics adventure! Subscribe to the blog to stay updated with the latest posts and receive notifications when new resources are available. I encourage you to actively participate by leaving comments, asking questions, and sharing your own insights. Let's build a supportive community where we can learn from each other, inspire one another, and make meaningful contributions to the world of bioinformatics.
 
+
+```py
+print("Hello World")
+print("I wonder how this looks")
+
+a = "I wonder I wonder"
+print(a)
+
+```
+
+
 ---
 
 Thank you for embarking on this exciting endeavor with me. I'm grateful for your support and look forward to sharing valuable insights, resources, and engaging content in the realm of bioinformatics. Stay tuned for the next blog post, where we'll dive deeper into the fascinating world of genomics and explore the endless possibilities that lie ahead.

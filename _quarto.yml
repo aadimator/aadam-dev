@@ -23,7 +23,7 @@ website:
   favicon: "/images/logo.png"
   site-url: "https://aadam.dev/"
   repo-url: "https://github.com/aadimator/aadam_dev"
-  repo-actions: issue
+  # repo-actions: issue
   image: /images/logo.png
 
   google-analytics: 

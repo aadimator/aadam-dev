@@ -3,7 +3,6 @@
 .home-card {
   display: block;
   padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   background-color: $card-bg;
@@ -61,4 +60,38 @@
 }
 .item {
   margin-bottom: 0.75rem;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.interests-icon {
+  color: $primary;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.contact-link {
+  background-color: $body-bg;
+  color: $body-color;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  &:hover, &:focus, &active {
+    background-color: shift-color($body-bg, 70%);
+    color: $body-color;
+  }
 }
