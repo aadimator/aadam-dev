@@ -1,6 +1,11 @@
 @use '_theme_variables' as *;
 
 .quarto-title-block {
+
+  .quarto-title-banner {
+    background-color: $card-bg;
+  }
+
   .haiku {
     text-align: right;
     font-family: $headings-font-family;

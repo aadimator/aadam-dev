@@ -1,6 +1,6 @@
 ---
 title: "Research"
-title-block-banner: "#212129"
+title-block-banner: true
 listing:
   - id: articles
     contents: "articles/*/index.qmd"

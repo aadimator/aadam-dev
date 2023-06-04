@@ -1,7 +1,6 @@
 ---
 title: "Blog"
 subtitle: "From Pixels to Proteins: A Computer Scientist's Exploration of Bioinformatics and Beyond"
-title-block-banner: "#212129"
 author: ""
 description-meta: "Aadam's blog"
 listing:
