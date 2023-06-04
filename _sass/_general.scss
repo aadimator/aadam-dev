@@ -53,6 +53,20 @@ a {
   }
 }
 
+div.sourceCode {
+  background-color: $card-bg !important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $body-bg;
+  background-color: $primary;
+}
+
+::selection {
+  color: $body-bg;
+  background-color: $primary;
+}
+
 .w-full {
   width: 100%;
 }

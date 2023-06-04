@@ -51,35 +51,35 @@ listing:
 ::: {.grid .my-4}
 
 
-::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+::: {.g-col-12 .g-col-md-6 .w-full .h-full}
 
-::: {#github .w-full .h-full}
+::: {#github .w-full .h-full .pb-0}
 :::
 
 :::
 
-::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+::: {.g-col-12 .g-col-md-6 .w-full .h-full}
 
-::: {#books .w-full .h-full}
+::: {#books .w-full .h-full .pb-0}
 :::
 
 :::
 
 :::
 
-::: {.grid .my-4}
+::: {.grid}
 
 
-::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+::: {.g-col-12 .g-col-md-6 .w-full .h-full}
 
-::: {#interests .w-full .h-full}
+::: {#interests .w-full .h-full .pb-0}
 :::
 
 :::
 
-::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
+::: {.g-col-12 .g-col-md-6 .w-full .h-full}
 
-::: {#contact .w-full .h-full}
+::: {#contact .w-full .h-full .pb-0}
 :::
 
 :::

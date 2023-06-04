@@ -1,9 +1,9 @@
 /*-- scss:uses --*/
 @use 'theme_variables' as *;
-@use '_general';
+@use 'general';
 @use 'blog';
 @use 'research';
-@use 'home_card';
+@use '_home_card';
 @use 'profile_card';
 @use 'theme_navbar';
 @use '_book';
