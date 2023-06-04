@@ -55,11 +55,11 @@ website:
 
 format:
   html:
-    theme: assets/css/panda.scss
-    css: assets/css/styles.css
+    theme: scss/panda.scss
+    css: scss/styles.css
     highlight-style: 
-      light: assets/styles/highlight-light.theme
-      dark: assets/styles/highlight-dark.theme
+      light: scss/highlight-light.theme
+      dark: scss/highlight-dark.theme
     smooth-scroll: true
     link-external-newwindow: true
     toc: false

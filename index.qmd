@@ -9,12 +9,13 @@ listing:
       template: ejs/homepage/github.ejs
       contents:
           - github_data.yaml
-    - id: twitter
-      template: ejs/homepage/github.ejs
-      contents:
-          - github_data.yaml
-
+    - id: books
+      template: ejs/homepage/books.ejs
 ---
+
+{{< fa blank >}} {{< ai blank >}}
+
+::: {.homepage}
 
 ```{=html}
 <div class="card-container">
@@ -42,19 +43,22 @@ listing:
 </div>
 ```
 
+
 ::: {.grid .my-4}
 
 
-::: {.g-col-12 .g-col-md-6 .mb-4}
+::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
 
-::: {#github}
+::: {#github .w-full .h-full}
 :::
 
 :::
 
-::: {.g-col-12 .g-col-md-6 .mb-4}
+::: {.g-col-12 .g-col-md-6 .mb-4 .w-full .h-full}
 
-::: {#twitter}
+::: {#books .w-full .h-full}
+:::
+
 :::
 
 :::
