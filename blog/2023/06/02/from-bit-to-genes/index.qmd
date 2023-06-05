@@ -1,0 +1,30 @@
+---
+title: "From Bits to Genes: Embarking on a Bioinformatics Journey"
+date: 2023-06-01
+description: "Embark on an exciting journey into the realm of bioinformatics with me as I share my experiences and discoveries, bridging the gap between computer science and genomics."
+categories:
+  - Commentary
+  - Reflection
+---
+
+Hello, world! With boundless enthusiasm and a touch of wonder, I invite you to explore the captivating world of bioinformatics through this blog. I'm thrilled to embark on this new chapter of my scientific journey and share it with all of you. As a computer scientist specializing in machine learning and deep learning, I've recently taken a plunge into the fascinating realm of bioinformatics, where genomics and data science converge.
+
+Although I thoroughly enjoyed dipping my toes into the vast and mysterious sea of bioinformatics during my graduate-level course on bioinformatics, my decision to fully immerse myself in this realm was driven by my acceptance into the Ph.D. program in bioinformatics at IUPUI, starting this Fall. Along my academic journey, I have explored various fields like quantum computing, artificial general intelligence, and neurosymbolic AI, all with the aim of broadening my horizons. I am a fervent learner, constantly seeking to expand my knowledge and explore new concepts. However, upon delving deeper into the field of bioinformatics, I came to the realization that my understanding was limited, and there was a noticeable scarcity of quality resources to aid in my quest for knowledge. As someone coming from a Computer Science and Machine Learning background, where resources abound, this scarcity became all the more apparent.
+
+## The Birth of the Blog
+
+The idea to create this blog was born from my own transition into bioinformatics and the realization that there's a lack of resources specifically tailored for computer scientists entering this domain. With a firm belief in the power of knowledge sharing and community building, I aim to document my experiences, discoveries, and insights as I navigate the world of bioinformatics.
+
+## Unveiling the Plan
+
+In this blog, my aim is to bridge the gap between computer science and bioinformatics, catering to both beginners and seasoned computer scientists who are venturing into this exciting field. The primary focus will revolve around the application of deep learning algorithms in analyzing single-cell transcriptomics data to uncover potential therapeutic treatments for cancer. Along the way, I'll delve into various topics such as genomics, bioinformatics techniques, machine learning applications, and knowledge management strategies.
+
+## What to Expect
+
+Expect a diverse array of content that combines technical insights with practical advice. Whether you're just starting your journey in bioinformatics or seeking to expand your expertise, this blog will offer valuable resources, tutorials, and research findings to help you navigate the intricate landscape of genomics and data science. Additionally, I'll occasionally share life commentary and reflections on the broader scientific landscape, offering a glimpse into the human side of scientific exploration.
+
+## Join the Journey
+
+I invite you to join me on this bioinformatics adventure! I encourage you to actively participate by leaving comments, asking questions, and sharing your own insights. Let's build a supportive community where we can learn from each other, inspire one another, and make meaningful contributions to the world of bioinformatics.
+
+Farewell for now, and remember, the wonders of bioinformatics await! Feel free to explore the blog and share it with others who might find it valuable. Your suggestions, topic requests, and feedback are always welcome as we embark on this enlightening journey together. Let's unlock the secrets of the genome and uncover groundbreaking discoveries in the pursuit of better cancer therapeutics.
