@@ -6,6 +6,7 @@
       "/research/articles/malikCARLAEvolutionCARLA2023/index.html",
       "/research/articles/halimClusteringGraphsUsing2021/index.html",
       "/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
+      "/blog/2023/06/02/hello-world/index.html",
       "/research/articles/malikImplantingIntelligence5G2022/index.html",
       "/research/index.html"
     ]
@@ -21,6 +22,8 @@
   },
   {
     "listing": "/blog/index.html",
-    "items": []
+    "items": [
+      "/blog/2023/06/02/hello-world/index.html"
+    ]
   }
 ]
