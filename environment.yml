@@ -1,0 +1,10 @@
+name: env
+channels:
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - jupyter
+  - pip:
+      - jupyter-cache
+prefix: .\.env

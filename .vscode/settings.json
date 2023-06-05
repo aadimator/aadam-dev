@@ -1,0 +1,7 @@
+{
+    "quarto.render.previewType": "external",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.env.windows": {
+        "QUARTO_PYTHON": "${workspaceFolder}\\.env\\python.exe"
+    }
+}

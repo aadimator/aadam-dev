@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "julialang.language-julia",
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "quarto.quarto"
+    ]
+}
