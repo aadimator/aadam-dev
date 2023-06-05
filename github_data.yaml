@@ -1,32 +1,34 @@
-- description: My Solutions to the exercises for the Deep Learning Specialization
-    on Coursera
-  id: MDEwOlJlcG9zaXRvcnkxMjAyODUxNjc=
-  name: deep-learning-specialization
-  stargazers: 2
-  url: https://github.com/aadimator/deep-learning-specialization
-- description: My solutions for the Advanced Machine Learning Specialization on Coursera
-  id: MDEwOlJlcG9zaXRvcnkxMjA5MjYzOTk=
-  name: advanced-ml-specialization
+- description: An open-source PGM-based autonomous driving simulator for complex urban
+    environments.
+  id: R_kgDOH__64A
+  name: CARLA-Plus
+  stargazers: 3
+  url: https://github.com/aadimator/CARLA-Plus
+- description: A random graph partitioning algorithm inspired from label propagation
+    method
+  id: MDEwOlJlcG9zaXRvcnkyODAwOTgxMTY=
+  name: RLP
   stargazers: 4
-  url: https://github.com/aadimator/advanced-ml-specialization
-- description: 'My Project Submissions for Machine Learning Engineer Nanodegree -
-    Udacity : https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009'
-  id: MDEwOlJlcG9zaXRvcnk3MTM0NzAwMA==
-  name: machine_learning_nanodegree
-  stargazers: 4
-  url: https://github.com/aadimator/machine_learning_nanodegree
-- description: Udacity's Deep Learning Nanodegree Solution
-  id: MDEwOlJlcG9zaXRvcnkxNjc3NDEyMTA=
-  name: deep-learning-nanodegree
-  stargazers: 0
-  url: https://github.com/aadimator/deep-learning-nanodegree
-- description: My Project Submissions for Android Developer Nanodegree - Udacity https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801
-  id: MDEwOlJlcG9zaXRvcnk3MDkxMTQxOQ==
-  name: android_developer_nanodegree
+  url: https://github.com/aadimator/RLP
+- description: A centralized repository collection of coding solutions for exercises
+    and projects from various online courses
+  id: R_kgDOJrghEw
+  name: CourseHub
   stargazers: 1
-  url: https://github.com/aadimator/android_developer_nanodegree
+  url: https://github.com/aadimator/CourseHub
 - description: Location tracking and visualization using Augmented Reality
   id: MDEwOlJlcG9zaXRvcnkxNDA1MjMzMzU=
-  name: khoji
-  stargazers: 9
-  url: https://github.com/aadimator/khoji
+  name: Khoji
+  stargazers: 10
+  url: https://github.com/aadimator/Khoji
+- description: Implementation of the NetMSA algorithm in Julia
+  id: MDEwOlJlcG9zaXRvcnkyNzQ2NDkzNDY=
+  name: NetMSA.jl
+  stargazers: 1
+  url: https://github.com/aadimator/NetMSA.jl
+- description: My solutions for the coding exercises in the Bioinformatics Specialization
+    on Coursera by UCSD
+  id: R_kgDOJowpsQ
+  name: BioinformaticsSpecialization
+  stargazers: 0
+  url: https://github.com/aadimator/BioinformaticsSpecialization
