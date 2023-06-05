@@ -9,6 +9,7 @@ listing:
     sort: "date desc"
     template: ../_layout/blog/listing.ejs
     categories: true
+    feed: true
 page-layout: full
 toc: false
 # toc-title: Year
