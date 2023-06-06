@@ -1,6 +1,6 @@
 ---
 title: "From Bits to Genes: Embarking on a Bioinformatics Journey"
-date: 2023-06-01
+date: 2023-06-02
 description: "Embark on an exciting journey into the realm of bioinformatics with me as I share my experiences and discoveries, bridging the gap between computer science and genomics."
 categories:
   - Commentary

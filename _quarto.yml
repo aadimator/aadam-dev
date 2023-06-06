@@ -35,14 +35,14 @@ website:
     anonymize-ip: true
 
   twitter-card: 
-    image: "assets/logo.png"
+    image: "/assets/logo.png"
     description: "{{< meta description-meta >}}"
     card-style: summary_large_image
     creator: "@aadimator"
     site: "@aadimator"
 
   open-graph: 
-    image: "assets/logo.png"
+    image: "/assets/logo.png"
     description: "{{< meta description-meta >}}"
     locale: en_US
   
