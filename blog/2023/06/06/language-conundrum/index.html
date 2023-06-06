@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Aadam">
+<meta name="description" content="Explore the challenges of selecting the ideal programming language for bioinformatics research and tool development as a PhD student embarking on a journey in the field.">
+
+<title>The Language Conundrum: Picking the Right Tool for Bioinformatics Success</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../..//assets/logo.png" rel="icon" type="image/png">
+<script src="../../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-527449-5', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../../../../_sass/styles.css">
+<meta property="og:title" content="The Language Conundrum: Picking the Right Tool for Bioinformatics Success">
+<meta property="og:description" content="Explore the challenges of selecting the ideal programming language for bioinformatics research and tool development as a PhD student embarking on a journey in the field.">
+<meta property="og:image" content="https://aadam.dev//assets/logo.png">
+<meta property="og:site-name" content="Aadam">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="501">
+<meta property="og:image:width" content="501">
+<meta name="twitter:title" content="The Language Conundrum: Picking the Right Tool for Bioinformatics Success">
+<meta name="twitter:description" content="Explore the challenges of selecting the ideal programming language for bioinformatics research and tool development as a PhD student embarking on a journey in the field.">
+<meta name="twitter:image" content="https://aadam.dev//assets/logo.png">
+<meta name="twitter:creator" content="@aadimator">
+<meta name="twitter:site" content="@aadimator">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="501">
+<meta name="twitter:image-width" content="501">
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">Aadam</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../blog/index.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../research/index.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title">The Language Conundrum: Picking the Right Tool for Bioinformatics Success</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+                  <div>
+        <div class="description">
+          Explore the challenges of selecting the ideal programming language for bioinformatics research and tool development as a PhD student embarking on a journey in the field.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Commentary</div>
+                <div class="quarto-category">Language</div>
+                <div class="quarto-category">Julia</div>
+                <div class="quarto-category">Rust</div>
+                <div class="quarto-category">Python</div>
+                <div class="quarto-category">Advice</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://aadam.dev/">Aadam</a> <a href="https://orcid.org/0000-0002-8543-1429" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Tuesday, June 6, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#why-the-right-programming-language-matters" id="toc-why-the-right-programming-language-matters" class="nav-link active" data-scroll-target="#why-the-right-programming-language-matters">Why the Right Programming Language Matters</a></li>
+  <li><a href="#python-the-powerhouse-of-bioinformatics" id="toc-python-the-powerhouse-of-bioinformatics" class="nav-link" data-scroll-target="#python-the-powerhouse-of-bioinformatics">Python: The Powerhouse of Bioinformatics</a>
+  <ul class="collapse">
+  <li><a href="#undisputed-ai-king" id="toc-undisputed-ai-king" class="nav-link" data-scroll-target="#undisputed-ai-king">Undisputed AI King</a></li>
+  <li><a href="#two-language-problem" id="toc-two-language-problem" class="nav-link" data-scroll-target="#two-language-problem">Two-Language Problem</a></li>
+  </ul></li>
+  <li><a href="#julia-unleashing-high-performance-in-bioinformatics" id="toc-julia-unleashing-high-performance-in-bioinformatics" class="nav-link" data-scroll-target="#julia-unleashing-high-performance-in-bioinformatics">Julia: Unleashing High Performance in Bioinformatics</a>
+  <ul class="collapse">
+  <li><a href="#speed" id="toc-speed" class="nav-link" data-scroll-target="#speed">Speed</a></li>
+  <li><a href="#abstraction-metaprogramming" id="toc-abstraction-metaprogramming" class="nav-link" data-scroll-target="#abstraction-metaprogramming">Abstraction &amp; Metaprogramming</a></li>
+  <li><a href="#solves-two-language-problem" id="toc-solves-two-language-problem" class="nav-link" data-scroll-target="#solves-two-language-problem">Solves Two-Language Problem</a></li>
+  <li><a href="#growing-ecosystem" id="toc-growing-ecosystem" class="nav-link" data-scroll-target="#growing-ecosystem">Growing Ecosystem</a></li>
+  <li><a href="#young-and-naive" id="toc-young-and-naive" class="nav-link" data-scroll-target="#young-and-naive">Young and naive</a></li>
+  </ul></li>
+  <li><a href="#rust-the-secure-and-reliable-option" id="toc-rust-the-secure-and-reliable-option" class="nav-link" data-scroll-target="#rust-the-secure-and-reliable-option">Rust: The Secure and Reliable Option</a>
+  <ul class="collapse">
+  <li><a href="#safety-and-memory-management" id="toc-safety-and-memory-management" class="nav-link" data-scroll-target="#safety-and-memory-management">Safety and Memory Management</a></li>
+  <li><a href="#performance-and-concurrency" id="toc-performance-and-concurrency" class="nav-link" data-scroll-target="#performance-and-concurrency">Performance and Concurrency</a></li>
+  <li><a href="#ecosystem-and-tooling" id="toc-ecosystem-and-tooling" class="nav-link" data-scroll-target="#ecosystem-and-tooling">Ecosystem and Tooling</a></li>
+  <li><a href="#learning-curve-and-development-time" id="toc-learning-curve-and-development-time" class="nav-link" data-scroll-target="#learning-curve-and-development-time">Learning Curve and Development Time</a></li>
+  <li><a href="#community-and-support" id="toc-community-and-support" class="nav-link" data-scroll-target="#community-and-support">Community and Support</a></li>
+  </ul></li>
+  <li><a href="#exploring-other-options" id="toc-exploring-other-options" class="nav-link" data-scroll-target="#exploring-other-options">Exploring Other Options</a>
+  <ul class="collapse">
+  <li><a href="#c-and-c" id="toc-c-and-c" class="nav-link" data-scroll-target="#c-and-c">C and C++</a></li>
+  <li><a href="#matlab" id="toc-matlab" class="nav-link" data-scroll-target="#matlab">MATLAB</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  </ul></li>
+  <li><a href="#a-call-to-the-bioinformatics-and-programming-language-communities" id="toc-a-call-to-the-bioinformatics-and-programming-language-communities" class="nav-link" data-scroll-target="#a-call-to-the-bioinformatics-and-programming-language-communities">A Call to the Bioinformatics and Programming Language Communities</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<p>As I prepare to embark on my Ph.D.&nbsp;journey in Bioinformatics this fall, I find myself facing an important decision that will shape my path in this field: which programming language should I dedicate my time and resources to? Bioinformatics, at its core, is the <strong>marriage of biology and computer science</strong>, where computational tools and algorithms are used to analyze and interpret biological data. A programming language serves as a fundamental tool in this process, allowing us to manipulate data, implement algorithms, and build bioinformatics tools. With numerous programming languages available, each with its own strengths and applications, the question arises: which language should I choose for long-term proficiency and to create impactful bioinformatics solutions? In this blog post, I turn to the bioinformatics and programming language communities to seek their insights and perspectives on this crucial decision.</p>
+<section id="why-the-right-programming-language-matters" class="level1">
+<h1>Why the Right Programming Language Matters</h1>
+<p>In the ever-evolving field of bioinformatics, the choice of programming language plays a pivotal role in our productivity, efficiency, and the scalability of our research. As bioinformatics researchers, we deal with vast amounts of biological data, complex algorithms, and the need for rapid prototyping. Due to the inherently complex and diverse nature of biological systems and data, an effective description or mathematical modeling necessitates a flexible programming language capable of connecting various types of highly structured data <span class="citation" data-cites="roesch2023">(<a href="#ref-roesch2023" role="doc-biblioref">Roesch et al. 2023</a>)</span>. A suitable programming language empowers us to navigate these challenges effectively, enabling us to manipulate data, implement algorithms, and build robust bioinformatics tools.</p>
+</section>
+<section id="python-the-powerhouse-of-bioinformatics" class="level1 page-columns page-full">
+<h1>Python: The Powerhouse of Bioinformatics</h1>
+<p><a href="https://www.python.org/" title="Python">Python</a> has emerged as the language of choice for many bioinformaticians, and for good reason. Its popularity stems from its versatility, extensive libraries, and community support. Python’s rich ecosystem provides a wide range of tools and libraries for data analysis, visualization, and statistical modeling. Additionally, if your research involves machine learning (ML) and deep learning (DL) applications, Python becomes an even more compelling option.</p>
+<section id="undisputed-ai-king" class="level2">
+<h2 class="anchored" data-anchor-id="undisputed-ai-king">Undisputed AI King</h2>
+<p>Python boasts an extensive collection of ML and DL frameworks, such as <code>TensorFlow</code>, <code>Keras</code>, and <code>PyTorch</code>, which have gained widespread adoption and support in the ML community. These frameworks provide a solid foundation for implementing complex algorithms, training models, and analyzing data. The vast community surrounding Python ensures a constant stream of updates, advancements, and support, making it a reliable choice for those venturing into ML and DL in the context of bioinformatics.</p>
+</section>
+<section id="two-language-problem" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="two-language-problem">Two-Language Problem</h2>
+<div class="page-columns page-full"><p>However, it’s important to acknowledge that Python does suffer from what is often referred to as the “two-language problem”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. While Python excels in high-level scripting, data analysis, and ML/DL tasks, it may not be the most efficient language for computationally intensive or performance-critical tasks. In such cases, bioinformaticians often resort to using lower-level languages like C or C++ to achieve the desired speed and performance.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;The “two-language problem” refers to situations where one language is used for high-level data analysis and scripting (often a scripting language like Python or R), while another language is used for performance-critical tasks or lower-level operations (often a compiled language like C++ or Java).</p></li></div></div>
+<p>This two-language problem poses a challenge for bioinformaticians, as it requires them to switch between Python for its ease of use and extensive libraries, and other languages for computationally intensive tasks. It can lead to code fragmentation, increased development time, and complexities in integrating different components.</p>
+<p>Despite this limitation, Python’s versatility, extensive libraries, and strong ML and DL support still position it as a powerhouse in the field of bioinformatics, enabling researchers to tackle diverse challenges and make significant advancements in their studies. It remains a preferred choice for many due to its ease of use, wide adoption, and vast ecosystem.</p>
+</section>
+</section>
+<section id="julia-unleashing-high-performance-in-bioinformatics" class="level1">
+<h1>Julia: Unleashing High Performance in Bioinformatics</h1>
+<p><a href="https://julialang.org/">Julia</a>, a relatively new programming language, has been gaining traction in the bioinformatics community for its unique features and promises to address the challenges faced by other languages. Julia stands out with its three hallmarks: speed, abstraction, and metaprogramming, making it particularly suitable for meeting the current and emerging demands of biomedical science <span class="citation" data-cites="roesch2023">(<a href="#ref-roesch2023" role="doc-biblioref">Roesch et al. 2023</a>)</span>.</p>
+<section id="speed" class="level2">
+<h2 class="anchored" data-anchor-id="speed">Speed</h2>
+<p>Speed is a critical factor in bioinformatics, where large-scale data analysis and computationally intensive tasks are commonplace. Julia’s just-in-time (JIT) compilation and type inference capabilities contribute to its impressive performance. The language’s ability to efficiently leverage hardware resources, including multiple CPU cores and distributed computing, allows for faster execution times, reducing processing bottlenecks and enabling researchers to analyze larger datasets with greater efficiency.</p>
+</section>
+<section id="abstraction-metaprogramming" class="level2">
+<h2 class="anchored" data-anchor-id="abstraction-metaprogramming">Abstraction &amp; Metaprogramming</h2>
+<p>Abstraction and metaprogramming are essential features that empower bioinformaticians to write expressive and concise code while maintaining readability and modularity. Julia’s sophisticated type system and multiple dispatch mechanism facilitate the creation of reusable and composable software components. Moreover, metaprogramming capabilities enable dynamic code generation and specialization, enabling researchers to adapt their code to varying experimental setups and data structures efficiently, proving most valuable in various simulation tasks.</p>
+</section>
+<section id="solves-two-language-problem" class="level2">
+<h2 class="anchored" data-anchor-id="solves-two-language-problem">Solves Two-Language Problem</h2>
+<p>One of Julia’s primary selling points is its aim to solve the two-language problem. The creators of Julia recognized the limitations and complexities of switching between multiple languages for different tasks. By providing a single language that combines the ease of use and high-level abstractions of languages like Python with the performance of lower-level languages like C++, Julia aims to streamline bioinformatics workflows and eliminate the need for constant language switching.</p>
+</section>
+<section id="growing-ecosystem" class="level2">
+<h2 class="anchored" data-anchor-id="growing-ecosystem">Growing Ecosystem</h2>
+<p>Julia’s ecosystem is rapidly expanding, especially in the fields of scientific computing and bioinformatics. The <a href="https://biojulia.dev/"><code>BioJulia</code></a> organization plays a significant role in providing essential infrastructure and packages tailored specifically for bioinformaticians. These packages cover a wide range of bioinformatics tasks, including sequence analysis, genomics, and molecular dynamics simulations, further solidifying Julia’s position as a viable choice for bioinformatics research.</p>
+</section>
+<section id="young-and-naive" class="level2">
+<h2 class="anchored" data-anchor-id="young-and-naive">Young and naive</h2>
+<p>However, it’s important to note that Julia is still a young language compared to more established options like Python. While it has seen remarkable growth and adoption in the past couple of years, there may be certain gaps in its ecosystem or limitations in terms of available libraries or tools for specific bioinformatics tasks. Furthermore, Yuri Vishnevsky in his article “<a href="https://yuri.is/not-julia/" title="Why I no longer recommend Julia">Why I no longer recommend Julia</a>”, highlighted his <strong>concerns about Julia’s correctness</strong> and pointed out specific challenges related to its generality, lack of formal interfaces, and unspecified semantics in certain scenarios. He expressed skepticism about whether Julia’s correctness problems can be effectively resolved given its current design and community practices. It’s crucial for bioinformaticians to be aware of such viewpoints and carefully consider the trade-offs associated with language choices. While Julia offers compelling features and benefits for bioinformatics, including its speed, abstraction, and metaprogramming capabilities, the concerns raised by Vishnevsky emphasize the need for thorough evaluation and consideration of the risks involved.</p>
+<p>Julia’s combination of speed, abstraction, metaprogramming, and its aim to solve the two-language problem make it an enticing option for bioinformaticians. With its growing ecosystem and support from community like <code>BioJulia</code>, the language holds great promise for advancing bioinformatics research and driving innovation in biomedical science.</p>
+</section>
+</section>
+<section id="rust-the-secure-and-reliable-option" class="level1 page-columns page-full">
+<h1>Rust: The Secure and Reliable Option</h1>
+<p><a href="https://www.rust-lang.org/">Rust</a> is a relatively newer language that has gained popularity in recent years due to its emphasis on safety and performance. With its strong focus on memory safety and zero-cost abstractions, Rust offers a compelling option for bioinformatics projects where safety and efficiency are paramount.</p>
+<section id="safety-and-memory-management" class="level2">
+<h2 class="anchored" data-anchor-id="safety-and-memory-management">Safety and Memory Management</h2>
+<p>One of Rust’s standout features is its ownership system, which enables fine-grained control over memory allocation and deallocation. By enforcing strict borrowing and ownership rules, Rust prevents common programming errors like null pointer dereferences, data races, and memory leaks. This level of safety is especially crucial in bioinformatics, where processing large-scale genomic datasets and building robust tools require rock-solid reliability.</p>
+</section>
+<section id="performance-and-concurrency" class="level2">
+<h2 class="anchored" data-anchor-id="performance-and-concurrency">Performance and Concurrency</h2>
+<p>Rust’s performance characteristics are highly appealing, making it a suitable choice for computationally intensive bioinformatics tasks. The language leverages low-level control without sacrificing developer productivity, enabling efficient utilization of system resources. Additionally, Rust’s built-in concurrency mechanisms, such as lightweight threads (known as “<code>async</code>”) and the Actor model (via libraries like “<code>Actix</code>”), provide opportunities for parallel and concurrent processing in bioinformatics pipelines.</p>
+</section>
+<section id="ecosystem-and-tooling" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="ecosystem-and-tooling">Ecosystem and Tooling</h2>
+<div class="page-columns page-full"><p>While Rust is gaining momentum in various domains, including systems programming, web development, and networking, its bioinformatics ecosystem is still maturing. The availability of bioinformatics-specific libraries and tools in Rust might be more limited compared to more established languages like Python and Julia. However, Rust’s ecosystem is steadily growing, and community-driven initiatives are working to fill these gaps. This seems like a more viable option especially for me, as my PhD will revolve around single-cell analysis, and 10x Genomics<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> has started using Rust as their main language for different <a href="https://github.com/10xgenomics">open-source tools</a> they’re developing. Given that I’ll probably be working with their platform, their tools, and data in the near future, this seems like an obvious choice to make.</p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;They’re the market leader in the field of single cell analysis.</p></li></div></div>
+</section>
+<section id="learning-curve-and-development-time" class="level2">
+<h2 class="anchored" data-anchor-id="learning-curve-and-development-time">Learning Curve and Development Time</h2>
+<p>It’s important to note that Rust has a steeper learning curve compared to languages like Python and Julia. Its ownership system and strict compile-time checks require developers to think in a more disciplined manner. This learning curve may initially slow down development progress, particularly for those new to Rust. However, the effort invested in mastering Rust’s concepts can pay off in terms of safer, more performant code in the long run.</p>
+</section>
+<section id="community-and-support" class="level2">
+<h2 class="anchored" data-anchor-id="community-and-support">Community and Support</h2>
+<p>While Rust has an active and passionate community, its presence within the bioinformatics domain might not be as extensive as that of Python or Julia. Consequently, finding bioinformatics-specific resources, libraries, and domain expertise in Rust could be more challenging. There’s a lack of introductory resources for bioinformatics in Python as compared to R, but still, python has a lot more resources than Julia. Rust has even fewer resources available than Julia.</p>
+<p>When considering Rust for bioinformatics projects, it’s crucial to weigh the advantages of its safety and performance against the maturity of its bioinformatics ecosystem, the learning curve for developers, and the availability of community support.</p>
+</section>
+</section>
+<section id="exploring-other-options" class="level1">
+<h1>Exploring Other Options</h1>
+<p>While exploring programming languages for bioinformatics, other languages like C, C++, MATLAB, and R may come to mind. While these languages have their merits, they may not be the optimal choices for all bioinformatics use cases. Let’s briefly discuss each one:</p>
+<section id="c-and-c" class="level2">
+<h2 class="anchored" data-anchor-id="c-and-c">C and C++</h2>
+<p>C and C++ are powerful languages known for their performance and low-level control. They have been widely used in bioinformatics and computational biology for their ability to write highly optimized code. However, these languages require manual memory management and lack some of the safety features provided by languages like Rust. For complex bioinformatics projects, the development process in C or C++ can be more error-prone and time-consuming.</p>
+</section>
+<section id="matlab" class="level2">
+<h2 class="anchored" data-anchor-id="matlab">MATLAB</h2>
+<p>MATLAB is a popular language in scientific computing, widely used in fields like signal processing and data analysis. It offers a comprehensive set of tools and libraries for numerical computation. However, in terms of bioinformatics, Python has emerged as a more versatile and widely supported option. Python’s extensive libraries for data manipulation, machine learning, and visualization make it a more compelling choice for bioinformatics tasks that go beyond traditional numerical analysis.</p>
+</section>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<p>R is a language specifically designed for statistical computing and data analysis. It has a rich ecosystem of packages tailored for statistical modeling, visualization, and data manipulation. While R can be suitable for certain bioinformatics tasks that heavily involve statistical analysis, it may not be the most ideal choice for broader bioinformatics projects that require integration with machine learning, high-performance computing, or scalable data processing. Python, with its broader applicability and robust libraries, provides a more comprehensive toolkit for such endeavors.</p>
+<hr>
+<p>In comparison to these options, Rust stands out for its unique combination of safety, performance, and memory management. Its emphasis on correctness and concurrency makes it a strong candidate for building reliable and efficient bioinformatics tools. Python, on the other hand, offers a versatile ecosystem, abundant libraries, and community support, making it a popular choice for general-purpose bioinformatics tasks. Julia brings its own unique set of advantages to the table. With its emphasis on speed, abstraction, and metaprogramming, Julia is particularly well-suited to meet the current and emerging demands of biomedical science. It aims to address the two-language problem by providing a unified language for both high-level scientific computing and low-level performance optimization.</p>
+</section>
+</section>
+<section id="a-call-to-the-bioinformatics-and-programming-language-communities" class="level1">
+<h1>A Call to the Bioinformatics and Programming Language Communities</h1>
+<p>Now, I turn to the bioinformatics and programming language communities for their valuable insights and recommendations. As I embark on my Ph.D.&nbsp;journey and aim to create impactful bioinformatics tools, I invite you to share your experiences, opinions, and recommendations on which programming language you believe I should focus on for long-term proficiency in bioinformatics. Your input will help me make an informed decision, and together, we can contribute to the advancement of this exciting field.</p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The choice of programming language is a crucial decision for any bioinformatics researcher. As we navigate the vast landscape of bioinformatics, we must carefully consider the strengths, applications, and communities surrounding different programming languages. Python, Julia, and Rust offer unique advantages that cater to specific needs and preferences. However, the decision ultimately rests on our individual goals, research requirements, and personal affinity towards a particular language.</p>
+<p>I invite you to share your thoughts, experiences, and recommendations in the comments below. Together, let’s explore the language conundrum and empower ourselves to make informed choices that will drive our success in the field of bioinformatics.</p>
+<p><em>Note: As I embark on this journey, I will actively seek feedback and engage in discussions to refine my decision. Ultimately, my goal is to develop expertise in a programming language that will enable me to create innovative bioinformatics solutions and contribute to the scientific community.</em></p>
+
+
+<!-- -->
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-roesch2023" class="csl-entry" role="listitem">
+Roesch, Elisabeth, Joe G. Greener, Adam L. MacLean, Huda Nassar, Christopher Rackauckas, Timothy E. Holy, and Michael P. H. Stumpf. 2023. <span>“Julia for Biologists.”</span> <em>Nature Methods</em> 20 (5): 655–64. <a href="https://doi.org/10.1038/s41592-023-01832-z">https://doi.org/10.1038/s41592-023-01832-z</a>.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2023,
+  author = {, Aadam},
+  title = {The {Language} {Conundrum:} {Picking} the {Right} {Tool} for
+    {Bioinformatics} {Success}},
+  date = {2023-06-06},
+  url = {https://aadam.dev//blog/2023/06/06/language-conundrum},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Aadam. 2023. <span>“The Language Conundrum: Picking the Right Tool for
+Bioinformatics Success.”</span> June 6, 2023. <a href="https://aadam.dev//blog/2023/06/06/language-conundrum">https://aadam.dev//blog/2023/06/06/language-conundrum</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/aadam\.dev\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="aadimator/aadam-dev" data-repo-id="R_kgDOJqkpDg" data-category="Blog Comments" data-category-id="DIC_kwDOJqkpDs4CW-VW" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "The Language Conundrum: Picking the Right Tool for Bioinformatics Success"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 2023-06-06</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Explore the challenges of selecting the ideal programming language for bioinformatics research and tool development as a PhD student embarking on a journey in the field."</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">  - Commentary</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">  - Language</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">  - Julia</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">  - Rust</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">  - Python</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">  - Advice</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="an">bibliography:</span><span class="co"> references.bib</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="an">citation:</span><span class="co"> true</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>As I prepare to embark on my Ph.D. journey in Bioinformatics this fall, I find myself facing an important decision that will shape my path in this field: which programming language should I dedicate my time and resources to? Bioinformatics, at its core, is the **marriage of biology and computer science**, where computational tools and algorithms are used to analyze and interpret biological data. A programming language serves as a fundamental tool in this process, allowing us to manipulate data, implement algorithms, and build bioinformatics tools. With numerous programming languages available, each with its own strengths and applications, the question arises: which language should I choose for long-term proficiency and to create impactful bioinformatics solutions? In this blog post, I turn to the bioinformatics and programming language communities to seek their insights and perspectives on this crucial decision.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu"># Why the Right Programming Language Matters</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>In the ever-evolving field of bioinformatics, the choice of programming language plays a pivotal role in our productivity, efficiency, and the scalability of our research. As bioinformatics researchers, we deal with vast amounts of biological data, complex algorithms, and the need for rapid prototyping. Due to the inherently complex and diverse nature of biological systems and data, an effective description or mathematical modeling necessitates a flexible programming language capable of connecting various types of highly structured data <span class="co">[</span><span class="ot">@roesch2023</span><span class="co">]</span>. A suitable programming language empowers us to navigate these challenges effectively, enabling us to manipulate data, implement algorithms, and build robust bioinformatics tools.</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu"># Python: The Powerhouse of Bioinformatics</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Python</span><span class="co">](https://www.python.org/ "Python")</span> has emerged as the language of choice for many bioinformaticians, and for good reason. Its popularity stems from its versatility, extensive libraries, and community support. Python's rich ecosystem provides a wide range of tools and libraries for data analysis, visualization, and statistical modeling. Additionally, if your research involves machine learning (ML) and deep learning (DL) applications, Python becomes an even more compelling option.</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Undisputed AI King</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>Python boasts an extensive collection of ML and DL frameworks, such as <span class="in">`TensorFlow`</span>, <span class="in">`Keras`</span>, and <span class="in">`PyTorch`</span>, which have gained widespread adoption and support in the ML community. These frameworks provide a solid foundation for implementing complex algorithms, training models, and analyzing data. The vast community surrounding Python ensures a constant stream of updates, advancements, and support, making it a reliable choice for those venturing into ML and DL in the context of bioinformatics.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">## Two-Language Problem</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>However, it's important to acknowledge that Python does suffer from what is often referred to as the "two-language problem"<span class="ot">[^1]</span>. While Python excels in high-level scripting, data analysis, and ML/DL tasks, it may not be the most efficient language for computationally intensive or performance-critical tasks. In such cases, bioinformaticians often resort to using lower-level languages like C or C++ to achieve the desired speed and performance.</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>The "two-language problem" refers to situations where one language is used for high-level data analysis and scripting (often a scripting language like Python or R), while another language is used for performance-critical tasks or lower-level operations (often a compiled language like C++ or Java).</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>This two-language problem poses a challenge for bioinformaticians, as it requires them to switch between Python for its ease of use and extensive libraries, and other languages for computationally intensive tasks. It can lead to code fragmentation, increased development time, and complexities in integrating different components.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Despite this limitation, Python's versatility, extensive libraries, and strong ML and DL support still position it as a powerhouse in the field of bioinformatics, enabling researchers to tackle diverse challenges and make significant advancements in their studies. It remains a preferred choice for many due to its ease of use, wide adoption, and vast ecosystem.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu"># Julia: Unleashing High Performance in Bioinformatics</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Julia</span><span class="co">](https://julialang.org/)</span>, a relatively new programming language, has been gaining traction in the bioinformatics community for its unique features and promises to address the challenges faced by other languages. Julia stands out with its three hallmarks: speed, abstraction, and metaprogramming, making it particularly suitable for meeting the current and emerging demands of biomedical science <span class="co">[</span><span class="ot">@roesch2023</span><span class="co">]</span>.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">## Speed</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>Speed is a critical factor in bioinformatics, where large-scale data analysis and computationally intensive tasks are commonplace. Julia's just-in-time (JIT) compilation and type inference capabilities contribute to its impressive performance. The language's ability to efficiently leverage hardware resources, including multiple CPU cores and distributed computing, allows for faster execution times, reducing processing bottlenecks and enabling researchers to analyze larger datasets with greater efficiency.</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="fu">## Abstraction &amp; Metaprogramming</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>Abstraction and metaprogramming are essential features that empower bioinformaticians to write expressive and concise code while maintaining readability and modularity. Julia's sophisticated type system and multiple dispatch mechanism facilitate the creation of reusable and composable software components. Moreover, metaprogramming capabilities enable dynamic code generation and specialization, enabling researchers to adapt their code to varying experimental setups and data structures efficiently, proving most valuable in various simulation tasks.</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## Solves Two-Language Problem</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>One of Julia's primary selling points is its aim to solve the two-language problem. The creators of Julia recognized the limitations and complexities of switching between multiple languages for different tasks. By providing a single language that combines the ease of use and high-level abstractions of languages like Python with the performance of lower-level languages like C++, Julia aims to streamline bioinformatics workflows and eliminate the need for constant language switching.</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="fu">## Growing Ecosystem</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Julia's ecosystem is rapidly expanding, especially in the fields of scientific computing and bioinformatics. The <span class="co">[</span><span class="ot">`BioJulia`</span><span class="co">](https://biojulia.dev/)</span> organization plays a significant role in providing essential infrastructure and packages tailored specifically for bioinformaticians. These packages cover a wide range of bioinformatics tasks, including sequence analysis, genomics, and molecular dynamics simulations, further solidifying Julia's position as a viable choice for bioinformatics research.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="fu">## Young and naive</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>However, it's important to note that Julia is still a young language compared to more established options like Python. While it has seen remarkable growth and adoption in the past couple of years, there may be certain gaps in its ecosystem or limitations in terms of available libraries or tools for specific bioinformatics tasks. Furthermore, Yuri Vishnevsky in his article "<span class="co">[</span><span class="ot">Why I no longer recommend Julia</span><span class="co">](https://yuri.is/not-julia/ "Why I no longer recommend Julia")</span>", highlighted his **concerns about Julia's correctness** and pointed out specific challenges related to its generality, lack of formal interfaces, and unspecified semantics in certain scenarios. He expressed skepticism about whether Julia's correctness problems can be effectively resolved given its current design and community practices. It's crucial for bioinformaticians to be aware of such viewpoints and carefully consider the trade-offs associated with language choices. While Julia offers compelling features and benefits for bioinformatics, including its speed, abstraction, and metaprogramming capabilities, the concerns raised by Vishnevsky emphasize the need for thorough evaluation and consideration of the risks involved.</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>Julia's combination of speed, abstraction, metaprogramming, and its aim to solve the two-language problem make it an enticing option for bioinformaticians. With its growing ecosystem and support from community like <span class="in">`BioJulia`</span>, the language holds great promise for advancing bioinformatics research and driving innovation in biomedical science.</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu"># Rust: The Secure and Reliable Option</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Rust</span><span class="co">](https://www.rust-lang.org/)</span> is a relatively newer language that has gained popularity in recent years due to its emphasis on safety and performance. With its strong focus on memory safety and zero-cost abstractions, Rust offers a compelling option for bioinformatics projects where safety and efficiency are paramount.</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="fu">## Safety and Memory Management</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>One of Rust's standout features is its ownership system, which enables fine-grained control over memory allocation and deallocation. By enforcing strict borrowing and ownership rules, Rust prevents common programming errors like null pointer dereferences, data races, and memory leaks. This level of safety is especially crucial in bioinformatics, where processing large-scale genomic datasets and building robust tools require rock-solid reliability.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="fu">## Performance and Concurrency</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>Rust's performance characteristics are highly appealing, making it a suitable choice for computationally intensive bioinformatics tasks. The language leverages low-level control without sacrificing developer productivity, enabling efficient utilization of system resources. Additionally, Rust's built-in concurrency mechanisms, such as lightweight threads (known as "<span class="in">`async`</span>") and the Actor model (via libraries like "<span class="in">`Actix`</span>"), provide opportunities for parallel and concurrent processing in bioinformatics pipelines.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">## Ecosystem and Tooling</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>While Rust is gaining momentum in various domains, including systems programming, web development, and networking, its bioinformatics ecosystem is still maturing. The availability of bioinformatics-specific libraries and tools in Rust might be more limited compared to more established languages like Python and Julia. However, Rust's ecosystem is steadily growing, and community-driven initiatives are working to fill these gaps. This seems like a more viable option especially for me, as my PhD will revolve around single-cell analysis, and 10x Genomics<span class="ot">[^2]</span> has started using Rust as their main language for different <span class="co">[</span><span class="ot">open-source tools</span><span class="co">](https://github.com/10xgenomics)</span> they're developing. Given that I'll probably be working with their platform, their tools, and data in the near future, this seems like an obvious choice to make.</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]: </span>They're the market leader in the field of single cell analysis.</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="fu">## Learning Curve and Development Time</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>It's important to note that Rust has a steeper learning curve compared to languages like Python and Julia. Its ownership system and strict compile-time checks require developers to think in a more disciplined manner. This learning curve may initially slow down development progress, particularly for those new to Rust. However, the effort invested in mastering Rust's concepts can pay off in terms of safer, more performant code in the long run.</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="fu">## Community and Support</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>While Rust has an active and passionate community, its presence within the bioinformatics domain might not be as extensive as that of Python or Julia. Consequently, finding bioinformatics-specific resources, libraries, and domain expertise in Rust could be more challenging. There's a lack of introductory resources for bioinformatics in Python as compared to R, but still, python has a lot more resources than Julia. Rust has even fewer resources available than Julia.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>When considering Rust for bioinformatics projects, it's crucial to weigh the advantages of its safety and performance against the maturity of its bioinformatics ecosystem, the learning curve for developers, and the availability of community support.</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="fu"># Exploring Other Options</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>While exploring programming languages for bioinformatics, other languages like C, C++, MATLAB, and R may come to mind. While these languages have their merits, they may not be the optimal choices for all bioinformatics use cases. Let's briefly discuss each one:</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="fu">## C and C++</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>C and C++ are powerful languages known for their performance and low-level control. They have been widely used in bioinformatics and computational biology for their ability to write highly optimized code. However, these languages require manual memory management and lack some of the safety features provided by languages like Rust. For complex bioinformatics projects, the development process in C or C++ can be more error-prone and time-consuming.</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="fu">## MATLAB</span></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>MATLAB is a popular language in scientific computing, widely used in fields like signal processing and data analysis. It offers a comprehensive set of tools and libraries for numerical computation. However, in terms of bioinformatics, Python has emerged as a more versatile and widely supported option. Python's extensive libraries for data manipulation, machine learning, and visualization make it a more compelling choice for bioinformatics tasks that go beyond traditional numerical analysis.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="fu">## R</span></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>R is a language specifically designed for statistical computing and data analysis. It has a rich ecosystem of packages tailored for statistical modeling, visualization, and data manipulation. While R can be suitable for certain bioinformatics tasks that heavily involve statistical analysis, it may not be the most ideal choice for broader bioinformatics projects that require integration with machine learning, high-performance computing, or scalable data processing. Python, with its broader applicability and robust libraries, provides a more comprehensive toolkit for such endeavors.</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>In comparison to these options, Rust stands out for its unique combination of safety, performance, and memory management. Its emphasis on correctness and concurrency makes it a strong candidate for building reliable and efficient bioinformatics tools. Python, on the other hand, offers a versatile ecosystem, abundant libraries, and community support, making it a popular choice for general-purpose bioinformatics tasks. Julia brings its own unique set of advantages to the table. With its emphasis on speed, abstraction, and metaprogramming, Julia is particularly well-suited to meet the current and emerging demands of biomedical science. It aims to address the two-language problem by providing a unified language for both high-level scientific computing and low-level performance optimization.</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="fu"># A Call to the Bioinformatics and Programming Language Communities</span></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>Now, I turn to the bioinformatics and programming language communities for their valuable insights and recommendations. As I embark on my Ph.D. journey and aim to create impactful bioinformatics tools, I invite you to share your experiences, opinions, and recommendations on which programming language you believe I should focus on for long-term proficiency in bioinformatics. Your input will help me make an informed decision, and together, we can contribute to the advancement of this exciting field.</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="fu"># Conclusion</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>The choice of programming language is a crucial decision for any bioinformatics researcher. As we navigate the vast landscape of bioinformatics, we must carefully consider the strengths, applications, and communities surrounding different programming languages. Python, Julia, and Rust offer unique advantages that cater to specific needs and preferences. However, the decision ultimately rests on our individual goals, research requirements, and personal affinity towards a particular language.</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>I invite you to share your thoughts, experiences, and recommendations in the comments below. Together, let's explore the language conundrum and empower ourselves to make informed choices that will drive our success in the field of bioinformatics.</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>*Note: As I embark on this journey, I will actively seek feedback and engage in discussions to refine my decision. Ultimately, my goal is to develop expertise in a programming language that will enable me to create innovative bioinformatics solutions and contribute to the scientific community.*</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+<script src="../../../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

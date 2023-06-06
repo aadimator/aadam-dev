@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aadam.dev/index.html</loc>
-    <lastmod>2023-06-05T11:58:00.229Z</lastmod>
+    <lastmod>2023-06-06T15:02:23.894Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/index.html</loc>
-    <lastmod>2023-06-05T11:58:01.086Z</lastmod>
+    <lastmod>2023-06-06T15:02:24.606Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html</loc>
-    <lastmod>2023-06-05T11:58:01.610Z</lastmod>
+    <lastmod>2023-06-06T15:02:25.066Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/articles/halimClusteringGraphsUsing2021/index.html</loc>
-    <lastmod>2023-06-05T11:58:02.170Z</lastmod>
+    <lastmod>2023-06-06T15:02:25.522Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/articles/malikCARLAEvolutionCARLA2023/index.html</loc>
-    <lastmod>2023-06-05T11:58:02.750Z</lastmod>
+    <lastmod>2023-06-06T15:02:26.002Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/articles/malikImplantingIntelligence5G2022/index.html</loc>
-    <lastmod>2023-06-05T11:58:03.274Z</lastmod>
+    <lastmod>2023-06-06T15:02:26.406Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/blog/index.html</loc>
-    <lastmod>2023-06-05T11:58:03.654Z</lastmod>
+    <lastmod>2023-06-06T15:02:26.718Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/index.html</loc>
-    <lastmod>2023-06-05T11:58:04.366Z</lastmod>
+    <lastmod>2023-06-06T15:02:27.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/blog/2023/06/06/language-conundrum/index.html</loc>
+    <lastmod>2023-06-06T15:02:29.142Z</lastmod>
   </url>
 </urlset>

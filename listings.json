@@ -8,7 +8,8 @@
       "/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
       "/blog/2023/06/02/from-bits-to-genes/index.html",
       "/research/articles/malikImplantingIntelligence5G2022/index.html",
-      "/research/index.html"
+      "/research/index.html",
+      "/blog/2023/06/06/language-conundrum/index.html"
     ]
   },
   {
@@ -23,6 +24,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/2023/06/06/language-conundrum/index.html",
       "/blog/2023/06/02/from-bits-to-genes/index.html"
     ]
   }
