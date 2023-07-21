@@ -2,33 +2,34 @@
     environments.
   id: R_kgDOH__64A
   name: CARLA-Plus
-  stargazers: 3
+  stargazers: 7
   url: https://github.com/aadimator/CARLA-Plus
 - description: A random graph partitioning algorithm inspired from label propagation
     method
   id: MDEwOlJlcG9zaXRvcnkyODAwOTgxMTY=
   name: RLP
-  stargazers: 4
+  stargazers: 8
   url: https://github.com/aadimator/RLP
 - description: A centralized repository collection of coding solutions for exercises
     and projects from various online courses
   id: R_kgDOJrghEw
   name: CourseHub
-  stargazers: 1
+  stargazers: 5
   url: https://github.com/aadimator/CourseHub
 - description: Location tracking and visualization using Augmented Reality
   id: MDEwOlJlcG9zaXRvcnkxNDA1MjMzMzU=
   name: Khoji
-  stargazers: 10
+  stargazers: 14
   url: https://github.com/aadimator/Khoji
-- description: Implementation of the NetMSA algorithm in Julia
+- description: Implementation of the NetMSA algorithm in Julia for multiple sequence
+    alignment problem.
   id: MDEwOlJlcG9zaXRvcnkyNzQ2NDkzNDY=
   name: NetMSA.jl
-  stargazers: 1
+  stargazers: 6
   url: https://github.com/aadimator/NetMSA.jl
 - description: My solutions for the coding exercises in the Bioinformatics Specialization
     on Coursera by UCSD
   id: R_kgDOJowpsQ
   name: BioinformaticsSpecialization
-  stargazers: 0
+  stargazers: 5
   url: https://github.com/aadimator/BioinformaticsSpecialization
