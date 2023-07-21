@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aadam.dev/index.html</loc>
-    <lastmod>2023-06-06T15:02:23.894Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aadam.dev/research/index.html</loc>
-    <lastmod>2023-06-06T15:02:24.606Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aadam.dev/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html</loc>
-    <lastmod>2023-06-06T15:02:25.066Z</lastmod>
-  </url>
-  <url>
     <loc>https://aadam.dev/research/articles/halimClusteringGraphsUsing2021/index.html</loc>
-    <lastmod>2023-06-06T15:02:25.522Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aadam.dev/research/articles/malikCARLAEvolutionCARLA2023/index.html</loc>
-    <lastmod>2023-06-06T15:02:26.002Z</lastmod>
+    <lastmod>2023-07-21T11:14:25.970Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/research/articles/malikImplantingIntelligence5G2022/index.html</loc>
-    <lastmod>2023-06-06T15:02:26.406Z</lastmod>
+    <lastmod>2023-07-21T11:14:25.130Z</lastmod>
   </url>
   <url>
-    <loc>https://aadam.dev/blog/index.html</loc>
-    <lastmod>2023-06-06T15:02:26.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/index.html</loc>
-    <lastmod>2023-06-06T15:02:27.826Z</lastmod>
+    <loc>https://aadam.dev/research/index.html</loc>
+    <lastmod>2023-07-21T11:14:24.242Z</lastmod>
   </url>
   <url>
     <loc>https://aadam.dev/blog/2023/06/06/language-conundrum/index.html</loc>
-    <lastmod>2023-06-06T15:02:29.142Z</lastmod>
+    <lastmod>2023-07-21T11:14:23.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/blog/index.html</loc>
+    <lastmod>2023-07-21T11:14:21.414Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/index.html</loc>
+    <lastmod>2023-07-21T11:14:19.738Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/index.html</loc>
+    <lastmod>2023-07-21T11:14:22.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/research/articles/malikCARLAEvolutionCARLA2023/index.html</loc>
+    <lastmod>2023-07-21T11:14:24.710Z</lastmod>
+  </url>
+  <url>
+    <loc>https://aadam.dev/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html</loc>
+    <lastmod>2023-07-21T11:14:25.546Z</lastmod>
   </url>
 </urlset>
