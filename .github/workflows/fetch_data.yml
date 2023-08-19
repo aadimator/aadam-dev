@@ -16,7 +16,7 @@ jobs:
           --data-raw '{"query":"{\n  user(login: \"aadimator\") {\n pinnedItems(first: 6) {\n totalCount\n edges {\n node {\n ... on Repository {\n name\n id\n url\n stargazers {\n totalCount\n }\n description\n }\n }\n }\n }\n }\n }"' \
           -o github_data.json
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9 
       - name: Install dependencies for Python
