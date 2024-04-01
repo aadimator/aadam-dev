@@ -2,7 +2,7 @@
     environments.
   id: R_kgDOH__64A
   name: CARLA-Plus
-  stargazers: 11
+  stargazers: 12
   url: https://github.com/aadimator/CARLA-Plus
 - description: A random graph partitioning algorithm inspired from label propagation
     method
@@ -31,5 +31,5 @@
     on Coursera by UCSD
   id: R_kgDOJowpsQ
   name: BioinformaticsSpecialization
-  stargazers: 6
+  stargazers: 7
   url: https://github.com/aadimator/BioinformaticsSpecialization
