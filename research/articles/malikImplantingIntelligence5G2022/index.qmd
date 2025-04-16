@@ -29,7 +29,7 @@ categories:
   - Neural network
 pub-info:
   reference: >-
-    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Khan, J., & Ullah, O. (2022). "Implanting Intelligence in 5G Mobile Networks—A Practical Approach". <em>Electronics</em>, 11(23), Article 23. <a href="https://doi.org/10.3390/electronics11233933"><code>10.3390/electronics11233933</code></a>
+    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Khan, J., & Ullah, O. (2022). "Implanting Intelligence in 5G Mobile Networks—A Practical Approach". <em>Electronics</em>, 11(23), Article 23. <a href="https://doi.org/10.3390/electronics11233933">10.3390/electronics11233933</a>
   links:
   - name: Preprint
     url: malik_et_al_2022_implanting_intelligence_in_5g_mobile_networks.pdf
@@ -42,10 +42,10 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.3390/electronics11233933
     icon: ai ai-zotero
 doi: 10.3390/electronics11233933
-haiku:
-  - Cities evolve smart
-  - Networks weave intelligence
-  - Slicing future's path
+# haiku:
+#   - Cities evolve smart
+#   - Networks weave intelligence
+#   - Slicing future's path
 ---
 
 ## Important links

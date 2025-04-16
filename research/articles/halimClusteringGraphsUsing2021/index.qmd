@@ -24,7 +24,7 @@ categories:
   - Community detection
 pub-info:
   reference: >-
-    Halim, Z., Sargana, H. M., <strong>Aadam</strong>, Uzma, & Waqas, M. (2021). "Clustering of graphs using pseudo-guided random walk." <em>Journal of Computational Science</em>, 51, 101281. <a href="https://doi.org/10.1016/j.jocs.2020.101281"><code>10.1016/j.jocs.2020.101281</code></a>
+    Halim, Z., Sargana, H. M., <strong>Aadam</strong>, Uzma, & Waqas, M. (2021). "Clustering of graphs using pseudo-guided random walk." <em>Journal of Computational Science</em>, 51, 101281. <a href="https://doi.org/10.1016/j.jocs.2020.101281">10.1016/j.jocs.2020.101281</a>
   links:
   - name: Preprint
     url: halim_et_al_2021_clustering_of_graphs_using_pseudo-guided_random_walk.pdf
@@ -40,10 +40,10 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.1016/j.jocs.2020.101281
     icon: ai ai-zotero
 doi: 10.1016/j.jocs.2020.101281
-haiku:
-  - Clusters emerge bright
-  - Random walks guide the journey
-  - Graphs unveil secrets.
+# haiku:
+#   - Clusters emerge bright
+#   - Random walks guide the journey
+#   - Graphs unveil secrets.
 ---
 
 ## Important links

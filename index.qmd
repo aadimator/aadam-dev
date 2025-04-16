@@ -36,12 +36,12 @@ listing:
                 Hi, I'm Aadam <span style="white-space: nowrap;">👋</span>
                 </p>
                 <p class="tagline">
-                I am a PhD student developing machine learning algorithms for bioinformatics.
+                I am a PhD student working on creating intelligent systems.
                 </p>
                 <p class="mission">
-                Unlocking the Power of Data: Where Computer Science Fuels Genomic Discoveries
+                Unlocking the Power of Brain: Where Computer Science Meets Neuroscience
                 </p>
-        </div>
+          </div> 
         </div>
     </div>
 </div>

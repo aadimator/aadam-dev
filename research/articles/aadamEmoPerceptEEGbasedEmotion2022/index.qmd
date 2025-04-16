@@ -28,7 +28,7 @@ categories:
   - Perceiver
 pub-info:
   reference: >-
-    <strong>Aadam</strong>, Tubaishat, A., Al-Obeidat, F., Halim, Z., Waqas, M., & Qayum, F. (2022). "EmoPercept: EEG-based emotion classification through perceiver". <em>Soft Computing</em> 26, 10563–10570 <a href="https://doi.org/10.1007/s00500-021-06578-4"><code>10.1007/s00500-021-06578-4</code></a
+    <strong>Aadam</strong>, Tubaishat, A., Al-Obeidat, F., Halim, Z., Waqas, M., & Qayum, F. (2022). "EmoPercept: EEG-based emotion classification through perceiver". <em>Soft Computing</em> 26, 10563–10570 <a href="https://doi.org/10.1007/s00500-021-06578-4">10.1007/s00500-021-06578-4</a>
   links:
   - name: Preprint
     url: aadam_et_al_2022_emopercept.pdf
@@ -44,10 +44,10 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.1007/s00500-021-06578-4
     icon: ai ai-zotero
 doi: 10.1007/s00500-021-06578-4
-haiku:
-  - Signals hold secrets
-  - Perceiver sees within mind
-  - Emotion's true realm
+# haiku:
+#   - Signals hold secrets
+#   - Perceiver sees within mind
+#   - Emotion's true realm
 ---
 
 ## Important links

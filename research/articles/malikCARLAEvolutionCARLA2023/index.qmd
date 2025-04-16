@@ -32,7 +32,7 @@ categories:
   - CARLA
 pub-info:
   reference: >-
-    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Iqbal, F., Khan, J., & Ullah, O. (2023). "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model". <em>Drones</em>, 7(2), Article 2. <a href="https://doi.org/10.3390/drones7020111"><code>10.3390/drones7020111</code></a>
+    Malik, S., Khan, M. A., <strong>Aadam</strong>, El-Sayed, H., Iqbal, F., Khan, J., & Ullah, O. (2023). "CARLA+: An Evolution of the CARLA Simulator for Complex Environment Using a Probabilistic Graphical Model". <em>Drones</em>, 7(2), Article 2. <a href="https://doi.org/10.3390/drones7020111">10.3390/drones7020111</a>
   links:
   - name: Preprint
     url: carla-plus-an-evolution.pdf
@@ -48,10 +48,10 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.3390/drones7020111
     icon: ai ai-zotero
 doi: 10.3390/drones7020111
-haiku:
-  - Urban chaos thrives
-  - Collaborative driving strives
-  - CARLA+ guides lives
+# haiku:
+#   - Urban chaos thrives
+#   - Collaborative driving strives
+#   - CARLA+ guides lives
 ---
 
 ## Important links

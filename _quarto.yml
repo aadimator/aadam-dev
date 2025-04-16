@@ -1,12 +1,14 @@
 project:
   type: website
+  # Add output directory configuration
+  output-dir: _site
 
-  preview: 
-      port: 5555
-      browser: true
-      watch-inputs: true
-      navigate: true
-  
+  preview:
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+
   resources:
     - "assets/**"
     - "etc/**"
@@ -30,22 +32,22 @@ website:
   # repo-actions: issue
   image: /assets/logo.png
 
-  google-analytics: 
+  google-analytics:
     tracking-id: "UA-527449-5"
     anonymize-ip: true
 
-  twitter-card: 
+  twitter-card:
     image: "/assets/logo.png"
     description: "{{< meta description-meta >}}"
     card-style: summary_large_image
     creator: "@aadimator"
     site: "@aadimator"
 
-  open-graph: 
+  open-graph:
     image: "/assets/logo.png"
     description: "{{< meta description-meta >}}"
     locale: en_US
-  
+
   navbar:
     title: "Aadam"
     pinned: false
@@ -73,6 +75,3 @@ format:
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
-
-
-
