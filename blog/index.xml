@@ -6,21 +6,22 @@
       version="2.0">
 <channel>
 <title>Aadam</title>
-<link>https://aadam.dev/blog/index.html</link>
+<link>https://aadam.dev/blog/</link>
 <atom:link href="https://aadam.dev/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>{{&lt; meta description-meta &gt;}}</description>
 <image>
 <url>https://aadam.dev/assets/logo.png</url>
 <title>Aadam</title>
-<link>https://aadam.dev/blog/index.html</link>
+<link>https://aadam.dev/blog/</link>
 </image>
-<generator>quarto-1.3.433</generator>
+<generator>quarto-1.6.43</generator>
 <lastBuildDate>Tue, 06 Jun 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>The Language Conundrum: Picking the Right Tool for Bioinformatics Success</title>
   <dc:creator>Aadam </dc:creator>
-  <link>https://aadam.dev/blog/2023/06/06/language-conundrum/index.html</link>
+  <link>https://aadam.dev/blog/2023/06/06/language-conundrum/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -39,8 +40,8 @@
 </section>
 <section id="two-language-problem" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="two-language-problem">Two-Language Problem</h2>
-<div class="page-columns page-full"><p>However, it’s important to acknowledge that Python does suffer from what is often referred to as the “two-language problem”<sup>1</sup>. While Python excels in high-level scripting, data analysis, and ML/DL tasks, it may not be the most efficient language for computationally intensive or performance-critical tasks. In such cases, bioinformaticians often resort to using lower-level languages like C or C++ to achieve the desired speed and performance.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;The “two-language problem” refers to situations where one language is used for high-level data analysis and scripting (often a scripting language like Python or R), while another language is used for performance-critical tasks or lower-level operations (often a compiled language like C++ or Java).</p></li></div></div>
-<p>This two-language problem poses a challenge for bioinformaticians, as it requires them to switch between Python for its ease of use and extensive libraries, and other languages for computationally intensive tasks. It can lead to code fragmentation, increased development time, and complexities in integrating different components.</p>
+<p>However, it’s important to acknowledge that Python does suffer from what is often referred to as the “two-language problem”<sup>1</sup>. While Python excels in high-level scripting, data analysis, and ML/DL tasks, it may not be the most efficient language for computationally intensive or performance-critical tasks. In such cases, bioinformaticians often resort to using lower-level languages like C or C++ to achieve the desired speed and performance.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;The “two-language problem” refers to situations where one language is used for high-level data analysis and scripting (often a scripting language like Python or R), while another language is used for performance-critical tasks or lower-level operations (often a compiled language like C++ or Java).</p></div></div><p>This two-language problem poses a challenge for bioinformaticians, as it requires them to switch between Python for its ease of use and extensive libraries, and other languages for computationally intensive tasks. It can lead to code fragmentation, increased development time, and complexities in integrating different components.</p>
 <p>Despite this limitation, Python’s versatility, extensive libraries, and strong ML and DL support still position it as a powerhouse in the field of bioinformatics, enabling researchers to tackle diverse challenges and make significant advancements in their studies. It remains a preferred choice for many due to its ease of use, wide adoption, and vast ecosystem.</p>
 </section>
 </section>
@@ -82,8 +83,8 @@
 </section>
 <section id="ecosystem-and-tooling" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="ecosystem-and-tooling">Ecosystem and Tooling</h2>
-<div class="page-columns page-full"><p>While Rust is gaining momentum in various domains, including systems programming, web development, and networking, its bioinformatics ecosystem is still maturing. The availability of bioinformatics-specific libraries and tools in Rust might be more limited compared to more established languages like Python and Julia. However, Rust’s ecosystem is steadily growing, and community-driven initiatives are working to fill these gaps. This seems like a more viable option especially for me, as my PhD will revolve around single-cell analysis, and 10x Genomics<sup>2</sup> has started using Rust as their main language for different <a href="https://github.com/10xgenomics">open-source tools</a> they’re developing. Given that I’ll probably be working with their platform, their tools, and data in the near future, this seems like an obvious choice to make.</p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;They’re the market leader in the field of single cell analysis.</p></li></div></div>
-</section>
+<p>While Rust is gaining momentum in various domains, including systems programming, web development, and networking, its bioinformatics ecosystem is still maturing. The availability of bioinformatics-specific libraries and tools in Rust might be more limited compared to more established languages like Python and Julia. However, Rust’s ecosystem is steadily growing, and community-driven initiatives are working to fill these gaps. This seems like a more viable option especially for me, as my PhD will revolve around single-cell analysis, and 10x Genomics<sup>2</sup> has started using Rust as their main language for different <a href="https://github.com/10xgenomics">open-source tools</a> they’re developing. Given that I’ll probably be working with their platform, their tools, and data in the near future, this seems like an obvious choice to make.</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;They’re the market leader in the field of single cell analysis.</p></div></div></section>
 <section id="learning-curve-and-development-time" class="level2">
 <h2 class="anchored" data-anchor-id="learning-curve-and-development-time">Learning Curve and Development Time</h2>
 <p>It’s important to note that Rust has a steeper learning curve compared to languages like Python and Julia. Its ownership system and strict compile-time checks require developers to think in a more disciplined manner. This learning curve may initially slow down development progress, particularly for those new to Rust. However, the effort invested in mastering Rust’s concepts can pay off in terms of safer, more performant code in the long run.</p>
@@ -129,21 +130,21 @@
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-roesch2023" class="csl-entry">
 Roesch, Elisabeth, Joe G. Greener, Adam L. MacLean, Huda Nassar, Christopher Rackauckas, Timothy E. Holy, and Michael P. H. Stumpf. 2023. <span>“Julia for Biologists.”</span> <em>Nature Methods</em> 20 (5): 655–64. <a href="https://doi.org/10.1038/s41592-023-01832-z">https://doi.org/10.1038/s41592-023-01832-z</a>.
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2023,
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{2023,
   author = {, Aadam},
   title = {The {Language} {Conundrum:} {Picking} the {Right} {Tool} for
     {Bioinformatics} {Success}},
   date = {2023-06-06},
-  url = {https://aadam.dev//blog/2023/06/06/language-conundrum},
+  url = {https://aadam.dev/blog/2023/06/06/language-conundrum/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-2023" class="csl-entry quarto-appendix-citeas">
 Aadam. 2023. <span>“The Language Conundrum: Picking the Right Tool for
-Bioinformatics Success.”</span> June 6, 2023. <a href="https://aadam.dev//blog/2023/06/06/language-conundrum">https://aadam.dev//blog/2023/06/06/language-conundrum</a>.
+Bioinformatics Success.”</span> June 6, 2023. <a href="https://aadam.dev/blog/2023/06/06/language-conundrum/">https://aadam.dev/blog/2023/06/06/language-conundrum/</a>.
 </div></div></section></div> ]]></description>
   <category>Commentary</category>
   <category>Language</category>
@@ -151,14 +152,15 @@ Bioinformatics Success.”</span> June 6, 2023. <a href="https://aadam.dev//blog
   <category>Rust</category>
   <category>Python</category>
   <category>Advice</category>
-  <guid>https://aadam.dev/blog/2023/06/06/language-conundrum/index.html</guid>
+  <guid>https://aadam.dev/blog/2023/06/06/language-conundrum/</guid>
   <pubDate>Tue, 06 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>From Bits to Genes: Embarking on a Bioinformatics Journey</title>
   <dc:creator>Aadam </dc:creator>
-  <link>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/index.html</link>
+  <link>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -190,7 +192,7 @@ Bioinformatics Success.”</span> June 6, 2023. <a href="https://aadam.dev//blog
  ]]></description>
   <category>Commentary</category>
   <category>Reflection</category>
-  <guid>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/index.html</guid>
+  <guid>https://aadam.dev/blog/2023/06/02/from-bits-to-genes/</guid>
   <pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
