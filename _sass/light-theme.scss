@@ -1,0 +1,337 @@
+@use "theme_variables" as *;
+
+:root {
+    --bs-body-font-family: #{$font-family-sans-serif};
+    font-size: clamp(1.066666667rem, 1.066666667rem + .1469629638 * ((100vw - 20rem) / 55), 1.2136296308rem);
+    --bs-body-line-height: 1.7;
+    --bs-body-bg: #{$body-bg};
+    --color-black: #{$body-color};
+    --accent: #{$accent};
+    --border-radius: 1rem;
+    --box-shadow: rgba(0, 0, 0, 0.08) 1px 1px 1px, rgba(0, 0, 0, 0.08) 1px 2px 2px, rgba(0, 0, 0, 0.08) 3px 4px 4px, rgba(0, 0, 0, 0.08) 6px 8px 8px;
+    --border: 1px solid #fffb;
+    --card-bg: #{$card-bg};
+    --card-text: #{$body-color};
+    --card-hover-transform: translateY(-5px);
+    --card-transition: all 0.3s ease;
+}
+
+// /* Only hide specific elements */
+// div.quarto-post .metadata {
+//     display: none;
+// }
+
+// /* Restore visibility for important page elements */
+// #title-block-header {
+//     display: block;
+//     margin-bottom: 2rem;
+// }
+
+// .quarto-listing-category-title,
+// #quarto-margin-sidebar .quarto-listing-category,
+// div.quarto-post .listing-categories {
+//     display: block;
+// }
+
+body {
+    background-image: var(--bs-body-bg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--color-black);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-size: clamp(1.4728968807rem, 1.4728968807rem + .8411566892 * ((100vw - 20rem) / 55), 2.3140535699rem);
+    font-weight: 800;
+    max-inline-size: 50ch;
+    text-wrap: balance;
+}
+
+h2,
+.h2 {
+    border-bottom: 1px solid transparent;
+    padding-bottom: .5rem;
+    font-weight: 700;
+    max-inline-size: 50ch;
+    text-wrap: balance;
+}
+
+h3 {
+    max-inline-size: 50ch;
+    text-wrap: balance;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--accent) !important;
+}
+
+main {
+    // max-width: 1200px;
+    // margin: 0 auto;
+    // padding: 0 1rem;
+}
+
+.navbar,
+.nav-link {
+    background-color: #f3f1ee !important;
+    color: var(--color-black) !important;
+}
+
+.navbar-brand {
+    color: var(--color-black);
+    font-weight: 800;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--accent) !important;
+}
+
+.navbar-toggler,
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+    color: var(--color-black);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23495957' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 .15rem;
+}
+
+div.quarto-post {
+    border-bottom: 1px solid transparent;
+}
+
+.listing-title {
+    margin-top: 1.4rem !important;
+}
+
+.quarto-sidebar-toggle,
+.quarto-sidebar-toggle.expanded .quarto-sidebar-toggle-title {
+   display: none;
+}
+
+.quarto-sidebar-toggle-contents {
+    background: var(--bs-body-bg) !important;
+}
+
+.sidebar .toc-actions ul li a,
+.sidebar .quarto-code-links ul li a,
+.sidebar .quarto-other-links ul li a,
+.sidebar .quarto-alternate-notebooks ul li a,
+.sidebar .quarto-alternate-formats ul li a,
+.sidebar nav[role=doc-toc]>ul li a {
+    color: #869099 !important;
+}
+
+.sidebar .nav-link {
+    background: transparent !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid var(--accent);
+    color: var(--accent) !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a:hover,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
+    color: var(--accent) !important;
+    text-decoration: underline;
+}
+
+.card-img,
+img,
+iframe {
+    border-radius: var(--border-radius);
+    box-shadow: 2px 2px 4px transparent;
+    transition: box-shadow .5s;
+    border-top: var(--border);
+    border-left: var(--border);
+}
+
+.card-img:hover,
+img:hover,
+iframe:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* Exclude profile card image from hover effects */
+.profile-card img,
+.profile-card .img-container img {
+    box-shadow: none !important;
+    border: none !important;
+    transition: none !important;
+}
+
+.profile-card img:hover,
+.profile-card .img-container img:hover {
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.column-margin img {
+    margin-top: .5rem;
+}
+
+blockquote {
+    min-width: 100%;
+    padding: 2rem !important;
+    margin: 2rem auto;
+    margin-bottom: 3rem !important;
+    position: relative;
+    background: #ffffff88;
+    border-radius: var(--border-radius);
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 4px transparent;
+    transition: box-shadow .5s;
+    border-top: var(--border);
+    border-left: var(--border);
+}
+
+.blockquote:hover {
+    box-shadow: var(--box-shadow);
+}
+
+hr {
+    background: 0 0;
+    border: none;
+    height: auto;
+    line-height: 1;
+    max-width: none;
+    text-align: center;
+}
+
+hr::before {
+    content: "«—»";
+    color: var(--color-dark);
+    padding-left: 1.1377777785rem;
+    letter-spacing: -1.25rem;
+    font-size: 2.4rem;
+}
+
+.quarto-listing {
+    padding-top: 3rem;
+}
+
+div.quarto-post a {
+    color: var(--bs-heading-color);
+}
+
+div.quarto-about-jolla img.round {
+    border-radius: 0;
+}
+
+div.quarto-about-jolla .about-image {
+    object-fit: contain;
+    box-shadow: none;
+    border: none;
+}
+
+.pagination .page-link {
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    color: var(--color-black);
+}
+
+.pagination .active a {
+    background: transparent;
+    color: var(--accent) !important;
+}
+
+mark,
+.mark {
+    padding: .5em;
+    background-color: #dfeaec;
+    border-radius: var(--border-radius);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+/* Adaptations for your existing card styles */
+.card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 4px transparent;
+    transition: var(--card-transition);
+    border-top: var(--border);
+    border-left: var(--border);
+}
+
+.card:hover {
+    box-shadow: var(--box-shadow);
+    transform: var(--card-hover-transform);
+}
+
+/* Update homepage specific styles */
+.homepage {
+    a, a:hover, a:focus, a:active {
+        color: var(--accent);
+    }
+    
+    .item-description, p {
+        color: var(--color-black);
+        opacity: 0.8;
+    }
+}
+
+/* Books section adjustments */
+#literal-widget {
+    color: var(--color-black);
+}
+
+/* Contact button fixes */
+.contact-link {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: var(--color-black);
+    border-radius: var(--border-radius);
+    transition: var(--card-transition);
+    
+    &:hover {
+        background-color: var(--accent);
+        color: white !important;
+    }
+    
+    &:hover svg, 
+    &:hover i, 
+    &:hover .primary {
+        color: white !important;
+    }
+}
+
+/* Research section adaptations */
+.research-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+}
+
+.project-category {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: var(--border-radius);
+    padding: 0.2rem 0.6rem;
+    
+    a {
+        color: var(--color-black);
+        
+        &:hover {
+            color: var(--accent) !important;
+        }
+    }
+}

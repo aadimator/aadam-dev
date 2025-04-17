@@ -8,17 +8,18 @@
   font-size: 1rem !important;
   line-height: 1.25rem !important;
   font-weight: 500 !important;
-  color: white !important;
+  color: var(--color-black, #495057) !important;
 }
 
 
 #literal-widget a:hover .literal-book-item__title {
-  color: $primary !important;
+  color: var(--accent, $primary) !important;
 }
 
 #literal-widget .literal-book-item__authors {
   font-weight: 300 !important;
-  color: rgba(228, 228, 231) !important;
+  color: var(--color-black, #495057) !important;
+  opacity: 0.8 !important;
 }
 
 .literal-book-item__image_cover__outer {

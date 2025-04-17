@@ -63,7 +63,7 @@ format:
   html:
     theme: _sass/panda.scss
     css: _sass/styles.css
-    highlight-style: _sass/highlight-dark.theme
+    highlight-style: _sass/highlight-light.theme
     smooth-scroll: true
     link-external-newwindow: true
     toc: false

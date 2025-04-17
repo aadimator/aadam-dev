@@ -1,23 +1,20 @@
 /*-- scss:defaults --*/
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 // fonts
 // $font-family-sans-serif: "Roboto Condensed", sans-serif !default;
 // $font-family-monospace: monospace;
 
 // Fonts
-
 $font-size-base: 1rem;
+$font-family-sans-serif: "Reddit Sans", "Libre Franklin", inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+$headings-font-family: "Reddit Sans", "Jost", sans-serif !default;
+$headings-font-weight: 800 !default;
 
-$font-family-sans-serif: "Libre Franklin" !default;
-
-$headings-font-family: "Jost" !default;
-$headings-font-weight: 600 !default;
-
-$navbar-font-family: "Jost" !default;
-$toc-font-family: "Jost" !default;
-$footer-font-family: "Jost" !default;
+$navbar-font-family: "Reddit Sans", "Jost", sans-serif !default;
+$toc-font-family: "Reddit Sans", "Jost", sans-serif !default;
+$footer-font-family: "Reddit Sans", "Jost", sans-serif !default;
 
 // warmer grays (hue 240)
 $white:    #fff !default;
@@ -32,14 +29,15 @@ $gray-800: #343440 !default;
 $gray-900: #212129 !default;
 $black:    #000 !default;
 
-// $primary: #a594fd !default;
-$primary: #00FFCA; //#F2F7A1; //#D14836; //#d38d25;
-$body-bg: #18122B; //$gray-900; // #050505; //$dark;
-$body-color: #f1f1ef;
+// Light theme colors
+$accent: #dd7900 !default;
+$primary: $accent !default;
+$body-bg: #f3f1ee !default;
+$body-color: #495057 !default;
 $navbar-bg: $body-bg;
 $navbar-fg: $body-color;
-$card-bg: #393053; //$gray-800;
-$title-color: #f1f1ef;
+$card-bg: #ffffff88 !default;
+$title-color: $body-color;
 
 // Tint a color: mix a color with white
 @function tint-color($color, $weight) {

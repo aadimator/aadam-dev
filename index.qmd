@@ -23,7 +23,7 @@ listing:
 
 ```{=html}
 <div class="card-container">
-    <div class="profile-card">
+    <div class="profile-card home-card">
         <div class="grid">
             <div class="img-container">
                 <img
