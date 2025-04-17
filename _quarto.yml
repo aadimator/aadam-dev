@@ -49,13 +49,15 @@ website:
     locale: en_US
 
   navbar:
-    title: "Aadam"
+    title: "aadam"
     pinned: false
     right:
-      - text: Blog
+      - text: blog
         href: blog/index.qmd
-      - text: Research
+      - text: research
         href: research/index.qmd
+      - text: neat stuff
+        href: neat-stuff/index.qmd
 
   # reader-mode: true
 

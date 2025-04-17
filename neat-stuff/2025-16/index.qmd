@@ -1,0 +1,40 @@
+---
+title: "week 16 of 2025"
+description: "My foray into NeuroAI and the brain"
+date: "2025-04-17"
+categories: [Brain, NeuroAI]
+image: "./google-deepmind-ai-brain.jpg"
+---
+
+![Google Deepmind](./google-deepmind-ai-brain.jpg)
+
+
+Here's a collection of interesting articles, tools, and ideas I stumbled upon this week.
+
+## Technology
+
+- **[Tool Name](https://example.com)**: Brief description of why this tool is interesting or how it might be useful.
+- **[Article Title](https://example.com)**: A sentence or two about what this article covers and why it's worth reading.
+
+## Design
+
+- **[Design Resource](https://example.com)**: Brief description of this design resource.
+- **[Inspiration Source](https://example.com)**: Why I found this design inspiration interesting.
+
+## Science
+
+- **[Research Paper](https://example.com)**: What this research is about and why it matters.
+- **[Scientific Discovery](https://example.com)**: Brief explanation of this discovery.
+
+## Quote of the Week
+
+> "An inspiring or thought-provoking quote that resonated with me this week."
+> — Author Name
+
+## What I'm Currently Exploring
+
+A paragraph about what I'm currently learning or experimenting with. This could be a new programming language, framework, or concept that I'm diving into.
+
+---
+
+*This is part of my [Neat Stuff](/neat-stuff/) series where I share interesting things I discover each week.*

@@ -1,0 +1,29 @@
+<!-- filepath: /Users/aadam/workspace/aadam-dev/_layout/neat-stuff/listing.ejs -->
+```{=html}
+<div class="neat-stuff-listing">
+  <% for (const item of items) { %>
+    <div class="neat-stuff-card">
+      <div class="neat-stuff-card-content">
+        <div class="neat-stuff-card-header">
+          <h2 class="neat-stuff-title">
+            <a href="<%- item.path %>"><%= item.title %></a>
+          </h2>
+          <div class="neat-stuff-date">
+            <%= item.date ? item.date : '' %>
+          </div>
+        </div>
+        <% if (item.description) { %>
+          <div class="neat-stuff-description">
+            <%= item.description %>
+          </div>
+        <% } %>
+      </div>
+      <% if (item.image) { %>
+        <a href="<%- item.path %>" class="neat-stuff-card-image">
+          <img src="<%= item.image %>" alt="<%= item.title %>" loading="lazy" />
+        </a>
+      <% } %>
+    </div>
+  <% } %>
+</div>
+```

@@ -1,0 +1,22 @@
+# Metadata stuff
+description-meta: "{{< meta description >}}"
+pagetitle: "{{< meta title >}}"
+
+# Date format
+date-format: "dddd, MMMM D, YYYY"
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: left
+
+freeze: true
+
+# Default author
+author:
+  - name: Aadam
+    url: https://aadam.dev/
+    orcid: 0000-0002-8543-1429

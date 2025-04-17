@@ -1,0 +1,19 @@
+---
+title: "neat stuff"
+subtitle: "A curated collection of interesting things I've found while wandering the web"
+author: ""
+listing:
+  - id: neat-stuff
+    contents: "**/**.qmd"
+    sort: "date desc"
+    template: ../_layout/neat-stuff/listing.ejs
+    type: default
+# page-layout: full
+---
+
+> Inspired by [Chad Bennett's neat-stuff](https://chad-bennett.github.io/neat-stuff/). 
+
+---
+
+::: {#neat-stuff}
+:::

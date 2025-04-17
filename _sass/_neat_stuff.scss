@@ -1,0 +1,157 @@
+// filepath: /Users/aadam/workspace/aadam-dev/_sass/_neat_stuff.scss
+@use 'theme_variables' as *;
+
+// Neat Stuff specific styles
+.neat-stuff {
+  margin-top: 2rem;
+  
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    color: var(--accent);
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+// Neat Stuff listing styles - minimal design
+.neat-stuff-listing {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  
+  .neat-stuff-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem;
+    background-color: var(--card-bg, #ffffff88);
+    border-radius: var(--border-radius, 1rem);
+    transition: all 0.25s ease;
+    border-top: var(--border, 1px solid #fffb);
+    border-left: var(--border, 1px solid #fffb);
+    
+    &:hover {
+      box-shadow: var(--box-shadow);
+      transform: translateY(-3px);
+    }
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .neat-stuff-card-content {
+    flex: 1;
+    padding-right: 1.5rem;
+    
+    @media (max-width: 768px) {
+      padding-right: 0;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .neat-stuff-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .neat-stuff-title {
+    font-size: 1.25rem;
+    margin: 0;
+    
+    a {
+      color: var(--color-black);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--accent);
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .neat-stuff-date {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    color: var(--color-black);
+  }
+  
+  .neat-stuff-description {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: var(--color-black);
+    opacity: 0.9;
+  }
+  
+  .neat-stuff-card-image {
+    width: 175px;
+    height: 120px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: var(--border-radius, 0.75rem);
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover img {
+      transform: scale(1.05);
+    }
+    
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16/9;
+    }
+  }
+}
+
+// Post content styles
+.neat-stuff {
+  .weekly-post {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-top: var(--border);
+    border-left: var(--border);
+    
+    &:hover {
+      box-shadow: var(--box-shadow);
+    }
+  }
+  
+  // List styling for links
+  ul li {
+    margin-bottom: 1rem;
+  }
+  
+  // Quote styling
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: var(--color-black);
+    opacity: 0.9;
+  }
+  
+  // Image styling inside posts
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+  }
+}
