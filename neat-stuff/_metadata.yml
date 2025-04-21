@@ -1,5 +1,4 @@
 # Metadata stuff
-description-meta: "{{< meta description >}}"
 pagetitle: "{{< meta title >}}"
 
 # Date format

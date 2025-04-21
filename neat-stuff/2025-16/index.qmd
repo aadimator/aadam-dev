@@ -1,40 +1,43 @@
 ---
 title: "week 16 of 2025"
-description: "My foray into NeuroAI and the brain"
-date: "2025-04-17"
-categories: [Brain, NeuroAI]
-image: "./google-deepmind-ai-brain.jpg"
+description: ""
+date: "2025-04-20"
+categories: [Brain, NeuroAI, PhD]
+image: "./NeuroAI_concept_map.png"
 ---
 
-![Google Deepmind](./google-deepmind-ai-brain.jpg)
+![Concept map for the NeuroAI course by neuromatch.io [NeuroAI - neuromatch.io](https://neuroai.neuromatch.io/tutorials/intro.html)](./NeuroAI_concept_map.png)
+
+## Neuroscience
+
+I have been delving into the field of Neuroscience nowadays, as I feel like current deep learning trends aren't enough to achieve AGI. I don't subscribe to the belief that "we have the intelligence algorithm figured out after the Transformers architecture, and now we just need to scale it up". I think that we still have a long way to go in our pursuit of human-like intelligence.[^1] Reinforcement Learning domain feels much more closer to human-level AI to me, as compared to vanilla Deep Learning.
+
+> _"You cannot achieve general intelligence simply by scaling up today's deep learning techniques."_
+>
+> —Francois Chollet (Google)
+
+But, I believe that having a better understanding of how our brain works, would give us much more valuable insight on how we should go about solving the artificial intelligence problem. We don't have to replicate it as is, but it will definitely give us a blueprint using which we can build our own models, which will hopefully be more general and efficient than what we have available currently.
+
+> _"Understanding how the brain works is the key to building truly intelligent machines."_  
+> 
+> — Jeff Hawkins
+
+During my erratic exploration, I came across the field of NeuroAI, and here I'm listing some of the references, which can become useful for anyone interested in exploring this area:
+
+- **[NeuroAI | neuromatch.io](https://neuroai.neuromatch.io/tutorials/intro.html)**: I found this course just one day after the deadline for the new summer school cohort, and was devastated. But thankfully, the team has made all the material from previous cohorts open-source, so we can go through that on our own pace. I'm still going through the [prerequisite computational neuroscience course](https://compneuro.neuromatch.io/tutorials/intro.html), but I'm eager to start this one once I'm done with that.
+- **[Neuro4ML - Neuroscience for Machine Learners](https://neuro4ml.github.io/)**: I'm currently going through this course, as from the title, it seems like this might be designed specifically for people like us–those coming from ML with little to no neuroscience background. I'll update you down the line on how this adventure pans out.
+- **[Thousand Brains Project](https://thousandbrainsproject.readme.io/docs)**: This is the project that started me down this path of neuro-inspired AI. I've been distantly following the **Numenta** team for quite some time now, but these past few weeks, I got the chance to dive deeper into their proposed theory. I read the **[A Thousand Brains: A New Theory of Intelligence](https://www.amazon.com/Thousand-Brains-New-Theory-Intelligence/dp/1541675819)** and presented that in our weekly literature review meetings. I've also gone through the project code and documentation, and I'm still exploring this amazing project. I'm planning on writing a detailed article on what I learned and what I think about this project. I also love how open their research is; it's not just open-source code, but the open-source their research meetings as well, where they present and discuss new ideas as they are implementing them. This is a valuable learning resource for the uninitiated.
+- **[NeuroAI - The Transmitter](https://www.thetransmitter.org/neuroai/neuroai-a-field-born-from-the-symbiosis-between-neuroscience-ai/)**: This is another great resource to stay up-to-date on what's happening in the field and what new research to keep an eye-on.
 
 
-Here's a collection of interesting articles, tools, and ideas I stumbled upon this week.
 
-## Technology
+## Ph.D
 
-- **[Tool Name](https://example.com)**: Brief description of why this tool is interesting or how it might be useful.
-- **[Article Title](https://example.com)**: A sentence or two about what this article covers and why it's worth reading.
+- **[You’re only human a six-step strategy to surviving your PhD](https://www.nature.com/articles/d41586-025-00967-7)**
+	- From my personal experience, I know how hard and taxing the psychological pressures could be. Alhamdulillah, I was lucky enough to escape a very bad situation, and had the support of my family, but this article is a good reminder to be mindful of our mental health, which is especially brittle during these hard times. I'm glad that this area is [getting some attention](https://www.nature.com/articles/d41586-025-01083-2).
 
-## Design
+## Miscellaneous
 
-- **[Design Resource](https://example.com)**: Brief description of this design resource.
-- **[Inspiration Source](https://example.com)**: Why I found this design inspiration interesting.
+- [How the United States became a science superpower — and how quickly it could crumble](https://www.nature.com/articles/d41586-025-01146-4): A nice and general overview of what's happening, and a little bit of history on what was, and what is.
 
-## Science
-
-- **[Research Paper](https://example.com)**: What this research is about and why it matters.
-- **[Scientific Discovery](https://example.com)**: Brief explanation of this discovery.
-
-## Quote of the Week
-
-> "An inspiring or thought-provoking quote that resonated with me this week."
-> — Author Name
-
-## What I'm Currently Exploring
-
-A paragraph about what I'm currently learning or experimenting with. This could be a new programming language, framework, or concept that I'm diving into.
-
----
-
-*This is part of my [Neat Stuff](/neat-stuff/) series where I share interesting things I discover each week.*
+[^1]: I'll talk later about what I mean by AGI or human-like intelligence, I still need to do some research and reading up on this subject.
