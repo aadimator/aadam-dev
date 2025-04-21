@@ -9,6 +9,12 @@
     ]
   },
   {
+    "listing": "/neat-stuff/index.html",
+    "items": [
+      "/neat-stuff/2025-16/index.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2023/06/06/language-conundrum/index.html",
@@ -25,7 +31,9 @@
       "/blog/2023/06/02/from-bits-to-genes/index.html",
       "/research/articles/malikImplantingIntelligence5G2022/index.html",
       "/research/index.html",
-      "/blog/2023/06/06/language-conundrum/index.html"
+      "/blog/2023/06/06/language-conundrum/index.html",
+      "/neat-stuff/index.html",
+      "/neat-stuff/2025-16/index.html"
     ]
   }
 ]
