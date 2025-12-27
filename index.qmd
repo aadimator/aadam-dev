@@ -36,10 +36,10 @@ listing:
                 Hi, I'm Aadam <span style="white-space: nowrap;">👋</span>
                 </p>
                 <p class="tagline">
-                I am a PhD student working on creating intelligent systems.
+                Computer Scientist & Deep Learning researcher exploring NeuroAI
                 </p>
                 <p class="mission">
-                Unlocking the Power of Brain: Where Computer Science Meets Neuroscience
+                Working on deep learning, while learning about the biological intelligence that inspired it.
                 </p>
           </div> 
         </div>
@@ -67,7 +67,7 @@ listing:
 
 :::
 
-::: {.grid}
+::: {.grid .my-4}
 
 
 ::: {.g-col-12 .g-col-md-6 .w-full .h-full}

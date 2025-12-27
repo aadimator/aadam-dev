@@ -1,11 +1,11 @@
 ---
 title: "Blog"
-subtitle: "From Pixels to Proteins: A Computer Scientist's Exploration of Bioinformatics and Beyond"
+subtitle: "Notes from building, reading, and learning"
 author: ""
 description-meta: "Aadam's blog"
 listing:
   - id: posts_2023
-    contents: "2023/**/index.qmd"
+    contents: "20**/**/index.qmd"
     sort: "date desc"
     template: ../_layout/blog/listing.ejs
     categories: true
@@ -21,7 +21,7 @@ comments: false
 
 <!-- ::: {.callout-note appearance="simple"} -->
 
-> Here the realm of machine learning and deep learning collides with the intricate world of genomics and biology. Delve into the fascinating landscape of bioinformatics as I share my personal transformation, offering insights and resources tailored for fellow computer scientists embarking on their bioinformatics adventure.
+> Short notes on deep learning, systems, and whatever I’m currently trying to understand.
 
 <!-- ::: -->
 

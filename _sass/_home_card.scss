@@ -2,10 +2,7 @@
 
 .home-card {
   display: block;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding: 1.5rem;
   background-color: var(--card-bg, $card-bg);
   color: var(--card-text, $body-color);
   height: 100%;
@@ -15,9 +12,15 @@
   box-shadow: 2px 2px 4px transparent;
   transition: var(--card-transition, all 0.3s ease);
   
-  &:hover {
+  &:hover,
+  &:focus-within {
     box-shadow: var(--box-shadow);
     transform: var(--card-hover-transform);
+  }
+
+  &:focus-within {
+    outline: 2px solid $gray-400;
+    outline-offset: 2px;
   }
 }
 

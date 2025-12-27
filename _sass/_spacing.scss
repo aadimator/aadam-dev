@@ -1,0 +1,45 @@
+@use "theme_variables" as *;
+
+/*-- scss:rules --*/
+
+:root {
+  --space-unit: 0.5rem; /* 8px */
+  --space-xs: var(--space-unit); /* 8px */
+  --space-sm: calc(var(--space-unit) * 2); /* 16px */
+  --space-md: calc(var(--space-unit) * 3); /* 24px */
+  --space-lg: calc(var(--space-unit) * 4); /* 32px */
+  --space-xl: calc(var(--space-unit) * 6); /* 48px (3rem) */
+  --space-2xl: calc(var(--space-unit) * 8); /* 64px */
+}
+
+$space-unit: 0.5rem; // 8px
+$space-xs: $space-unit;
+$space-sm: $space-unit * 2;
+$space-md: $space-unit * 3;
+$space-lg: $space-unit * 4;
+$space-xl: $space-unit * 6; // 3rem
+$space-2xl: $space-unit * 8;
+
+.stack-xl > * + * {
+  margin-top: var(--space-xl);
+}
+
+.stack-lg > * + * {
+  margin-top: var(--space-lg);
+}
+
+.p-md {
+  padding: var(--space-md) !important;
+}
+
+.p-lg {
+  padding: var(--space-lg) !important;
+}
+
+.mt-xl {
+  margin-top: var(--space-xl) !important;
+}
+
+.mb-xl {
+  margin-bottom: var(--space-xl) !important;
+}

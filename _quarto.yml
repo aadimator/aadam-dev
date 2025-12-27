@@ -15,7 +15,7 @@ project:
 
 # Metadata
 pagetitle: "{{< meta title >}} | Aadam"
-description-meta: "Aadam is a Ph.D. candidate at IUPUI, researching in the field of spatial transcriptomics."
+description-meta: "Aadam is a PhD student in Computer Science working on deep learning and exploring NeuroAI."
 author-meta: "Aadam"
 
 freeze: true
@@ -56,8 +56,6 @@ website:
         href: blog/index.qmd
       - text: research
         href: research/index.qmd
-      - text: neat stuff
-        href: neat-stuff/index.qmd
 
   # reader-mode: true
 
