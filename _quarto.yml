@@ -52,8 +52,8 @@ website:
     title: "aadam"
     pinned: false
     right:
-      - text: blog
-        href: blog/index.qmd
+      # - text: blog
+      #   href: blog/index.qmd
       - text: research
         href: research/index.qmd
 
