@@ -9,30 +9,25 @@
     ]
   },
   {
-    "listing": "/neat-stuff/index.html",
-    "items": [
-      "/neat-stuff/2025-16/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2023/06/06/language-conundrum/index.html",
-      "/blog/2023/06/02/from-bits-to-genes/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/blog/index.html",
       "/research/articles/malikCARLAEvolutionCARLA2023/index.html",
       "/research/articles/halimClusteringGraphsUsing2021/index.html",
       "/research/articles/aadamEmoPerceptEEGbasedEmotion2022/index.html",
-      "/blog/2023/06/02/from-bits-to-genes/index.html",
       "/research/articles/malikImplantingIntelligence5G2022/index.html",
       "/research/index.html",
-      "/blog/2023/06/06/language-conundrum/index.html",
       "/neat-stuff/index.html",
+      "/neat-stuff/2025-16/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/neat-stuff/index.html",
+    "items": [
       "/neat-stuff/2025-16/index.html"
     ]
   }
